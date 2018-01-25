@@ -15,8 +15,13 @@ class __TwigTemplate_f452f044cbf99a0ba5bcf07614cb8f99d9a2f41e290e8c142a17f51506b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
+        $__internal_71d43d233871c625d561b7b5e0e47cc909885b53a026fb62ee2f9ffcfd872238 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_71d43d233871c625d561b7b5e0e47cc909885b53a026fb62ee2f9ffcfd872238->enter($__internal_71d43d233871c625d561b7b5e0e47cc909885b53a026fb62ee2f9ffcfd872238_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.txt.twig"));
+=======
         $__internal_5e131da0043fdf339d95d126f8e4092926f524ffa29b88c55653b3903095c24c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_5e131da0043fdf339d95d126f8e4092926f524ffa29b88c55653b3903095c24c->enter($__internal_5e131da0043fdf339d95d126f8e4092926f524ffa29b88c55653b3903095c24c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.txt.twig"));
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
         // line 1
         if (twig_length_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["exception"]) || array_key_exists("exception", $context) ? $context["exception"] : (function () { throw new Twig_Error_Runtime('Variable "exception" does not exist.', 1, $this->getSourceContext()); })()), "trace", array()))) {
@@ -55,7 +60,11 @@ class __TwigTemplate_f452f044cbf99a0ba5bcf07614cb8f99d9a2f41e290e8c142a17f51506b
 ";
         }
         
+<<<<<<< HEAD
+        $__internal_71d43d233871c625d561b7b5e0e47cc909885b53a026fb62ee2f9ffcfd872238->leave($__internal_71d43d233871c625d561b7b5e0e47cc909885b53a026fb62ee2f9ffcfd872238_prof);
+=======
         $__internal_5e131da0043fdf339d95d126f8e4092926f524ffa29b88c55653b3903095c24c->leave($__internal_5e131da0043fdf339d95d126f8e4092926f524ffa29b88c55653b3903095c24c_prof);
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
     }
 

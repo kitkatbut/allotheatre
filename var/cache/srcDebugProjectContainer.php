@@ -16,6 +16,16 @@ if (!\class_exists(srcDebugProjectContainer::class, false)) {
 
 return new \ContainerAjLn8xf\srcDebugProjectContainer(array(
     'container.build_hash' => 'AjLn8xf',
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'container.build_id' => 'ce5f9d42',
+    'container.build_time' => 1516870624,
+=======
+    'container.build_id' => '68e04ba7',
+    'container.build_time' => 1516870644,
+>>>>>>> b3de45288a18251bb288d348e4dbddba62fcb8af
+=======
     'container.build_id' => '4e5d5b5a',
     'container.build_time' => 1516870489,
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 ));
