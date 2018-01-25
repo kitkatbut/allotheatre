@@ -16,6 +16,6 @@ if (!\class_exists(srcDevDebugProjectContainer::class, false)) {
 
 return new \ContainerJNWLlYD\srcDevDebugProjectContainer(array(
     'container.build_hash' => 'JNWLlYD',
-    'container.build_id' => '3b6b1cd4',
-    'container.build_time' => 1516892205,
+    'container.build_id' => '0dd16df9',
+    'container.build_time' => 1516894566,
 ));
