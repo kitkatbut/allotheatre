@@ -27,8 +27,7 @@ class InscriptionType extends AbstractType
                 'type' => PasswordType::class,
                 'first_options'  => array('label' => 'Mot de passe'),
                 'second_options' => array('label' => 'Confirmer votre mot de passe')))
-            ->add('save', SubmitType::class,
-                array('label' => 'S\'inscrire'))    
+              
             
         ;
     }
