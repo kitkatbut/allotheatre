@@ -25,10 +25,7 @@ class SitePublicController extends controller
 
         return $this->render('contact.html.twig');
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> 31589aa53df94bb04625345365043833ea0bb2c7
 
     /**
     * @Route("/connexion", name="connexion")

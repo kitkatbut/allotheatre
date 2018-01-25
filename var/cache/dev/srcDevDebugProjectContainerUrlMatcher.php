@@ -65,18 +65,11 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\SitePublicController::connexionAction',  '_route' => 'connexion',);
         }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         // profil
         if ('/profil' === $pathinfo) {
             return array (  '_controller' => 'App\\Controller\\SitePublicController::profilAction',  '_route' => 'profil',);
         }
 
-=======
->>>>>>> 57c398869fddcd1ccbef4fcbfc80c9af3fa42896
->>>>>>> 4dc2c1f5dd9d663e7a81076f10ddd23f390a6d4f
->>>>>>> 31589aa53df94bb04625345365043833ea0bb2c7
         if (0 === strpos($pathinfo, '/_')) {
             // _twig_error_test
             if (0 === strpos($pathinfo, '/_error') && preg_match('#^/_error/(?P<code>\\d+)(?:\\.(?P<_format>[^/]++))?$#s', $pathinfo, $matches)) {
