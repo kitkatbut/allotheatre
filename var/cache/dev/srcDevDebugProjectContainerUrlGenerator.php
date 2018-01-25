@@ -18,6 +18,10 @@ class srcDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
         $this->logger = $logger;
         if (null === self::$declaredRoutes) {
             self::$declaredRoutes = array(
+<<<<<<< HEAD
+        'fiche_spectacle' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'App\\Controller\\FicheSpectacleController::ficheSpectacleAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/fiche_spectacle',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+=======
+>>>>>>> 0bec796ad1cf710c43318c714b924e4e8e382155
         'test' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'App\\Controller\\LuckyController::number',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/number',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'inscription' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'App\\Controller\\SecurityController::registerAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/inscription',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'login_check' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'App\\Controller\\SecurityController::check',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/login_check',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
