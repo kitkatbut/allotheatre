@@ -15,8 +15,13 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a->enter($__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
+<<<<<<< HEAD
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a->enter($__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
+=======
+        $__internal_511ea3b8d4518b63588e85128f5fa76a8f74c77eeb3733a92caf5ec284f15133 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_511ea3b8d4518b63588e85128f5fa76a8f74c77eeb3733a92caf5ec284f15133->enter($__internal_511ea3b8d4518b63588e85128f5fa76a8f74c77eeb3733a92caf5ec284f15133_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
         // line 1
         echo "<div class=\"trace trace-as-html\">
@@ -103,7 +108,11 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
 </div>
 ";
         
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a->leave($__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a_prof);
+<<<<<<< HEAD
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a->leave($__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a_prof);
+=======
+        $__internal_511ea3b8d4518b63588e85128f5fa76a8f74c77eeb3733a92caf5ec284f15133->leave($__internal_511ea3b8d4518b63588e85128f5fa76a8f74c77eeb3733a92caf5ec284f15133_prof);
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
     }
 
@@ -157,6 +166,6 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "/Applications/MAMP/htdocs/AlloTheatre/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
     }
 }

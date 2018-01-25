@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1006b1,127.0.0.1,GET,http://localhost:8000/,1516706805,300fd2,200
 300fd2,127.0.0.1,GET,http://localhost:8000/,1516706805,,500
 fce159,127.0.0.1,GET,http://localhost:8000/,1516706846,,200
@@ -378,6 +379,7 @@ ee72aa,127.0.0.1,GET,http://localhost:8000/contact,1516816847,,200
 9c433d,127.0.0.1,GET,http://localhost:8000/contact,1516816952,,200
 29ba69,127.0.0.1,GET,http://localhost:8000/,1516867885,,200
 913ffb,127.0.0.1,GET,http://localhost:8000/,1516868680,,200
+<<<<<<< HEAD
 6f03ca,127.0.0.1,GET,http://localhost:8000/,1516871325,,200
 ff6349,127.0.0.1,GET,http://localhost:8000/font/roboto/Roboto-Regular.woff2,1516871327,b88430,200
 b88430,127.0.0.1,GET,http://localhost:8000/font/roboto/Roboto-Regular.woff2,1516871327,,404
@@ -426,3 +428,12 @@ efcf75,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.
 ccd418,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516874040,,404
 f23436,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516874041,23e953,200
 23e953,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516874041,,404
+=======
+482cda,127.0.0.1,GET,http://localhost:8000/,1516871499,,200
+=======
+acd32b,127.0.0.1,GET,http://localhost:8000/,1516870487,,200
+cdcf60,127.0.0.1,GET,http://localhost:8000/,1516872019,ade599,200
+ade599,127.0.0.1,GET,http://localhost:8000/,1516872019,,500
+1c0d34,127.0.0.1,GET,http://localhost:8000/,1516872041,,200
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
+>>>>>>> c5261bf5e8683a623da9556f00dc23f5eabb4f21
