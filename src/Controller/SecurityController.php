@@ -53,4 +53,24 @@ class SecurityController extends Controller
     {
         throw new \RuntimeException('You must configure the check path to be handled by the firewall using form_login in your security firewall configuration.');
     }
+    
+    /**TEST*/
+    /**
+     * @Route("/profil", name="profil")
+     */
+   public function login(Request $request, AuthenticationUtils $authUtils)
+{
+    // get the login error if there is one
+    $error = $authUtils->getLastAuthenticationError();
+
+    // last username entered by the user
+    $lastUsername = $authUtils->getLastUsername();
+
+    return $this->render('profil.html.twig', array(
+        'last_username' => $lastUsername,
+        'error'         => $error,
+    ));
+}
+    
+
 }
