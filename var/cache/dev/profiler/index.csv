@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 bc35b9,127.0.0.1,GET,http://localhost:8000/,1516874476,,200
 037ef8,127.0.0.1,GET,http://localhost:8000/font/roboto/Roboto-Regular.woff2,1516874477,e667f1,200
 e667f1,127.0.0.1,GET,http://localhost:8000/font/roboto/Roboto-Regular.woff2,1516874477,,404
@@ -578,3 +579,8 @@ ed8e8a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7
 0e6e0b,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876446,,404
 d34f36,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876447,e1dd90,200
 e1dd90,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876447,,404
+=======
+fa34bc,127.0.0.1,GET,http://localhost:8000/,1516874654,,200
+8c6283,127.0.0.1,GET,http://localhost:8000/,1516874690,,200
+67e1cb,127.0.0.1,GET,http://localhost:8000/,1516875374,,200
+>>>>>>> ff51f62b898e62301f688c953c7787776adb97ac
