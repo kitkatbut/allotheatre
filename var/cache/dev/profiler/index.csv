@@ -584,3 +584,17 @@ fa34bc,127.0.0.1,GET,http://localhost:8000/,1516874654,,200
 8c6283,127.0.0.1,GET,http://localhost:8000/,1516874690,,200
 67e1cb,127.0.0.1,GET,http://localhost:8000/,1516875374,,200
 >>>>>>> ff51f62b898e62301f688c953c7787776adb97ac
+075fd8,127.0.0.1,GET,http://localhost:8000/contact,1516876717,,200
+79bc0d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876718,411cac,200
+411cac,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876718,,404
+d20d24,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876719,a41ad0,200
+a41ad0,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876719,,404
+c8a506,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876719,9a8204,200
+9a8204,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876719,,404
+0d631e,127.0.0.1,GET,http://localhost:8000/,1516876743,,200
+7926a1,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876744,e0800c,200
+e0800c,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876744,,404
+df3893,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876745,593101,200
+593101,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876745,,404
+902bf8,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876745,8a9f6f,200
+8a9f6f,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876745,,404

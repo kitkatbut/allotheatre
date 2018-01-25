@@ -1,3 +1,10 @@
+/*NOM DU SCRIPT: AlloThéâtre
+REALISATION: Claire Moreau, Amel Choquet, Chafika Morsli, Audrey Rebolle
+DATE DE CREATION: 25/01/2018
+DATE DERNIER MODIF/ICATION : 25/01/2018
+OBJET: Projet final*/
+
+
 //Carousel
 function moveToSelected(element) {
 

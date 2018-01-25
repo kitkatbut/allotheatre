@@ -1,9 +1,8 @@
-/*html, body, main {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}*/
+/*NOM DU SCRIPT: AlloThéâtre
+REALISATION: Claire Moreau, Amel Choquet, Chafika Morsli, Audrey Rebolle
+DATE DE CREATION: 25/01/2018
+DATE DERNIER MODIF/ICATION : 25/01/2018
+OBJET: Projet final*/
 
 #carousel {
   position: relative;
@@ -81,7 +80,7 @@
   position: relative;
   width: 100%;
   margin: 10px auto;
-  
+
 }
 
 .buttons button{
