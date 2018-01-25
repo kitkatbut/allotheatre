@@ -5,10 +5,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
 if (\class_exists(\ContainerQkbv5wX\srcDevDebugProjectContainer::class, false)) {
     // no-op
 } elseif (!include __DIR__.'/ContainerQkbv5wX/srcDevDebugProjectContainer.php') {
     touch(__DIR__.'/ContainerQkbv5wX.legacy');
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +64,7 @@ if (\class_exists(\ContainerDRhdsHg\srcDevDebugProjectContainer::class, false)) 
 >>>>>>> 251b1902413e5b3b9896f3fde9b69025e9741617
 >>>>>>> d6fbede0e0506f67d5333937dfbbc273ae649155
 >>>>>>> dd750d5759c991b2aaf8e12a2c7b5ac6ae0c82ea
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
 
     return;
 }
@@ -67,11 +73,18 @@ if (!\class_exists(srcDevDebugProjectContainer::class, false)) {
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
     \class_alias(\ContainerQkbv5wX\srcDevDebugProjectContainer::class, srcDevDebugProjectContainer::class, false);
 }
 
 return new \ContainerQkbv5wX\srcDevDebugProjectContainer(array(
     'container.build_hash' => 'Qkbv5wX',
+<<<<<<< HEAD
+    'container.build_id' => 'b981e507',
+    'container.build_time' => 1516887559,
+=======
     'container.build_id' => 'cd2137eb',
     'container.build_time' => 1516886728,
 =======
@@ -145,4 +158,5 @@ return new \ContainerDRhdsHg\srcDevDebugProjectContainer(array(
 >>>>>>> 251b1902413e5b3b9896f3fde9b69025e9741617
 >>>>>>> d6fbede0e0506f67d5333937dfbbc273ae649155
 >>>>>>> dd750d5759c991b2aaf8e12a2c7b5ac6ae0c82ea
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
 ));

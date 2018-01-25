@@ -15,6 +15,13 @@ class __TwigTemplate_92becb044c0aaf10f1b7d2043f0c0082aa6bf3ccdeed10e537ab3bc54d0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
+        $__internal_233b81b320fe892cfae7e26dd0e9e66a5589150297aac8f1af6cbf000f1b36fd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_233b81b320fe892cfae7e26dd0e9e66a5589150297aac8f1af6cbf000f1b36fd->enter($__internal_233b81b320fe892cfae7e26dd0e9e66a5589150297aac8f1af6cbf000f1b36fd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+
+        $__internal_e536fa904285ba867e83f6d80d5db1e253bdb2c6ef9be7e0b320a08e38cb5e25 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e536fa904285ba867e83f6d80d5db1e253bdb2c6ef9be7e0b320a08e38cb5e25->enter($__internal_e536fa904285ba867e83f6d80d5db1e253bdb2c6ef9be7e0b320a08e38cb5e25_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+=======
 <<<<<<< HEAD:var/cache/dev/twig/8b/8bd143819ef08def9da7dc866fb6b81d01fe3f58df13863b3b1c6f12f7edf5a6.php
         $__internal_83b03563d61d45a9f1416dbdc865e111f036b43a2584f2480c56ad3a8ce84fd4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_83b03563d61d45a9f1416dbdc865e111f036b43a2584f2480c56ad3a8ce84fd4->enter($__internal_83b03563d61d45a9f1416dbdc865e111f036b43a2584f2480c56ad3a8ce84fd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
@@ -28,6 +35,7 @@ class __TwigTemplate_92becb044c0aaf10f1b7d2043f0c0082aa6bf3ccdeed10e537ab3bc54d0
         $__internal_d493dca6ac84d991b9283d6a451882c8cb73f8d3b2b13b8edf44c8e81dd057f9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_d493dca6ac84d991b9283d6a451882c8cb73f8d3b2b13b8edf44c8e81dd057f9->enter($__internal_d493dca6ac84d991b9283d6a451882c8cb73f8d3b2b13b8edf44c8e81dd057f9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
 >>>>>>> dd750d5759c991b2aaf8e12a2c7b5ac6ae0c82ea:var/cache/dev/twig/7f/7fc6b731c1acaf6f61c0d8c0a6b81abbf88fa83a54704be8187f8f9042f6120c.php
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
 
         // line 1
         if (twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 1, $this->getSourceContext()); })()), "function", array())) {
@@ -49,6 +57,12 @@ class __TwigTemplate_92becb044c0aaf10f1b7d2043f0c0082aa6bf3ccdeed10e537ab3bc54d0
             echo ((twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 5, $this->getSourceContext()); })()), "function", array())) ? (")") : (""));
         }
         
+<<<<<<< HEAD
+        $__internal_233b81b320fe892cfae7e26dd0e9e66a5589150297aac8f1af6cbf000f1b36fd->leave($__internal_233b81b320fe892cfae7e26dd0e9e66a5589150297aac8f1af6cbf000f1b36fd_prof);
+
+        
+        $__internal_e536fa904285ba867e83f6d80d5db1e253bdb2c6ef9be7e0b320a08e38cb5e25->leave($__internal_e536fa904285ba867e83f6d80d5db1e253bdb2c6ef9be7e0b320a08e38cb5e25_prof);
+=======
 <<<<<<< HEAD:var/cache/dev/twig/8b/8bd143819ef08def9da7dc866fb6b81d01fe3f58df13863b3b1c6f12f7edf5a6.php
         $__internal_83b03563d61d45a9f1416dbdc865e111f036b43a2584f2480c56ad3a8ce84fd4->leave($__internal_83b03563d61d45a9f1416dbdc865e111f036b43a2584f2480c56ad3a8ce84fd4_prof);
 
@@ -60,6 +74,7 @@ class __TwigTemplate_92becb044c0aaf10f1b7d2043f0c0082aa6bf3ccdeed10e537ab3bc54d0
         
         $__internal_d493dca6ac84d991b9283d6a451882c8cb73f8d3b2b13b8edf44c8e81dd057f9->leave($__internal_d493dca6ac84d991b9283d6a451882c8cb73f8d3b2b13b8edf44c8e81dd057f9_prof);
 >>>>>>> dd750d5759c991b2aaf8e12a2c7b5ac6ae0c82ea:var/cache/dev/twig/7f/7fc6b731c1acaf6f61c0d8c0a6b81abbf88fa83a54704be8187f8f9042f6120c.php
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
 
     }
 

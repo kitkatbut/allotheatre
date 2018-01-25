@@ -1,4 +1,82 @@
 <<<<<<< HEAD
+426772,127.0.0.1,GET,http://localhost:8000/connection,1516887251,39c984,200
+39c984,127.0.0.1,GET,http://localhost:8000/connection,1516887251,,404
+d2ccf4,127.0.0.1,GET,http://localhost:8000/connexion,1516887272,9e0c5c,200
+9e0c5c,127.0.0.1,GET,http://localhost:8000/connexion,1516887272,,404
+95eed8,127.0.0.1,GET,http://localhost:8000/connexion,1516887312,45734e,200
+45734e,127.0.0.1,GET,http://localhost:8000/connexion,1516887312,,404
+bcc59c,127.0.0.1,GET,http://localhost:8000/connexion,1516887561,,200
+bd5452,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887562,d74f0e,200
+d74f0e,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887562,,404
+068024,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887562,d92335,200
+d92335,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887562,,404
+4f629b,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887562,14585e,200
+14585e,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887562,,404
+b3aae3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887563,9ffbff,200
+9ffbff,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887563,,404
+d19a62,127.0.0.1,GET,http://localhost:8000/connexion,1516887675,,200
+2dd3e7,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887676,c4c95f,200
+c4c95f,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887676,,404
+251601,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887676,b298f0,200
+b298f0,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887676,,404
+c6cedb,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887676,cc511f,200
+cc511f,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887676,,404
+670555,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887677,1b51db,200
+1b51db,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887677,,404
+8cde7b,127.0.0.1,GET,http://localhost:8000/connexion,1516887688,,200
+1a9540,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887689,e43a93,200
+e43a93,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887689,,404
+9fbe62,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887689,8e8928,200
+8e8928,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887689,,404
+dff20b,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887690,488ee9,200
+488ee9,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887690,,404
+57bbda,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887690,009eae,200
+009eae,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887690,,404
+1692ab,127.0.0.1,GET,http://localhost:8000/connexion,1516887746,,200
+668ec3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887747,381be8,200
+381be8,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887747,,404
+6c9ef8,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887748,7ff389,200
+7ff389,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887748,,404
+7a542e,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887748,cdc8ec,200
+cdc8ec,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887748,,404
+2cd4fd,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887748,1d6fd8,200
+1d6fd8,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887748,,404
+ee5701,127.0.0.1,GET,http://localhost:8000/connexion,1516887878,,200
+6c988a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887878,3ce2ab,200
+3ce2ab,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516887878,,404
+15fd59,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887879,63b904,200
+63b904,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516887879,,404
+d736e3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887879,3cc4df,200
+3cc4df,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516887879,,404
+741706,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887880,66357c,200
+66357c,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516887880,,404
+583ff9,127.0.0.1,GET,http://localhost:8000/connexion,1516888068,,200
+e7a7a3,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516888069,5731b3,200
+5731b3,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516888069,,404
+30753a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888069,1b3164,200
+1b3164,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888069,,404
+3ba977,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888070,60ae19,200
+60ae19,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888070,,404
+450210,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888070,ffca13,200
+ffca13,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888070,,404
+24996a,127.0.0.1,GET,http://localhost:8000/,1516888079,,200
+7acbc5,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888081,fd8ec5,200
+fd8ec5,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888081,,404
+b755e6,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888081,dd1901,200
+dd1901,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888081,,404
+fe7a90,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888081,499190,200
+499190,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888081,,404
+00aeac,127.0.0.1,GET,http://localhost:8000/connexion,1516888085,,200
+f7d800,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516888086,ecd159,200
+ecd159,127.0.0.1,GET,http://localhost:8000/assets/images/icons.svg,1516888086,,404
+aecd7a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888087,c43c0a,200
+c43c0a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516888087,,404
+08029d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888087,d8538d,200
+d8538d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516888087,,404
+014ccd,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888088,283aa4,200
+283aa4,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516888088,,404
+=======
+<<<<<<< HEAD
 7ce28f,127.0.0.1,GET,http://localhost:8000/,1516887133,ec8cc4,200
 ec8cc4,127.0.0.1,GET,http://localhost:8000/,1516887133,,500
 6f0359,127.0.0.1,GET,http://localhost:8000/,1516887147,,200
@@ -164,3 +242,4 @@ b3b170,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7
 >>>>>>> 251b1902413e5b3b9896f3fde9b69025e9741617
 >>>>>>> d6fbede0e0506f67d5333937dfbbc273ae649155
 >>>>>>> dd750d5759c991b2aaf8e12a2c7b5ac6ae0c82ea
+>>>>>>> 02c4a0439f43eb84982404b0559cf4e3beb721e4
