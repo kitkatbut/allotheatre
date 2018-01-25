@@ -24,17 +24,17 @@ class SecurityController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
 
             // 3) Encode the password (you could also do this via Doctrine listener)
-            $password = $passwordEncoder->encodePassword($inscription, $user->getPassword());
-            $inscription->setPassword($password);
+            //$password = $passwordEncoder->encodePassword($inscription, $inscription->getPassword());
+           // $inscription->setPassword($password);
 
             // 4) save the User!
             $em = $this->getDoctrine()->getManager();
-            $em->persist($user);
+            $em->persist($inscription);
             $em->flush();
-
+            dump($inscription);
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
-
+            
             return $this->redirectToRoute('homepage');
         }
 
