@@ -40,9 +40,27 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\SecurityController::registerAction',  '_route' => 'inscription',);
         }
 
-        // login_check
-        if ('/login_check' === $pathinfo) {
-            return array (  '_controller' => 'App\\Controller\\SecurityController::check',  '_route' => 'login_check',);
+        if (0 === strpos($pathinfo, '/login')) {
+            // login_check
+            if ('/login_check' === $pathinfo) {
+                return array (  '_controller' => 'App\\Controller\\SecurityController::check',  '_route' => 'login_check',);
+            }
+
+            // login
+            if ('/login' === $pathinfo) {
+                return array (  '_controller' => 'App\\Controller\\SecurityController::login',  '_route' => 'login',);
+            }
+
+        }
+
+        // deconnexion
+        if ('/deconnexion' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SecurityController::logout',  '_route' => 'deconnexion',);
+        }
+
+        // profil
+        if ('/profil' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SecurityController::showAction',  '_route' => 'profil',);
         }
 
         // accueil
