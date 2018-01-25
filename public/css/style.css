@@ -4,10 +4,9 @@ DATE DE CREATION: 25/01/2018
 DATE DERNIER MODIF/ICATION : 25/01/2018
 OBJET: Projet final*/
 
-
 header {
-    margin-top: 100px;
-    margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 /*carousel*/
@@ -16,85 +15,251 @@ header {
   position: relative;
   height: 400px;
   top: 50%;
-/*  transform: translateY(-50%);*/
+  /*  transform: translateY(-50%);*/
   overflow: hidden;
 }
+
 #carousel div {
   position: absolute;
   transition: transform 1s, left 1s, opacity 1s, z-index 0s;
   opacity: 1;
 }
+
 #carousel div img {
   width: 400px;
   transition: width 1s;
 }
+
 #carousel div.hideLeft {
   left: 0%;
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideLeft img {
   width: 200px;
 }
+
 #carousel div.hideRight {
   left: 100%;
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideRight img {
   width: 200px;
 }
+
 #carousel div.prev {
   z-index: 5;
   left: 30%;
   transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.prev img {
   width: 300px;
 }
+
 #carousel div.prevLeftSecond {
   z-index: 4;
   left: 15%;
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
+
 #carousel div.prevLeftSecond img {
   width: 200px;
 }
+
 #carousel div.selected {
   z-index: 10;
   left: 50%;
   transform: translateY(0px) translateX(-50%);
 }
+
 #carousel div.next {
   z-index: 5;
   left: 70%;
   transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.next img {
   width: 300px;
 }
+
 #carousel div.nextRightSecond {
   z-index: 4;
   left: 85%;
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
+
 #carousel div.nextRightSecond img {
   width: 200px;
 }
+
 /* bouttons carousel*/
+
 .buttons {
   position: relative;
   width: 100%;
   margin: 10px auto;
-
 }
 
-.buttons button{
+.buttons button {
   margin: 10px auto;
 }
 
+<<<<<<< HEAD
+/* Form contact*/
+
+body {
+  background: #efefef;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #b6b6b6;
+}
+
+body section {
+  background: white;
+  margin: 60px auto 120px;
+  border-top: 15px solid #313a3d;
+  text-align: center;
+  padding: 50px 0 110px;
+  width: 80%;
+  max-width: 1100px;
+}
+
+body section h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+
+form {
+  width: 58.3333333333%;
+  margin: 0 auto;
+}
+
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #313a3d;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+form .field label+span {
+  font-family: "SSStandard";
+  opacity: 0;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 7%;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 0 #cd6302;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"], form .field textarea {
+  border: none;
+  background: #e8e9ea;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313a3d;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+form .field input[type="text"]#msg, form .field textarea#msg {
+  height: 18px;
+  resize: none;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"]:focus, form .field input[type="text"].focused, form .field textarea:focus, form .field textarea.focused {
+  outline: none;
+}
+
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg, form .field textarea:focus#msg, form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+
+form .field input[type="text"]:focus+label, form .field input[type="text"].focused+label, form .field textarea:focus+label, form .field textarea.focused+label {
+  width: 18%;
+  background: #fd9638;
+  color: #313a3d;
+}
+
+form .field input[type="text"].focused+label, form .field textarea.focused+label {
+  color: #fd9638;
+}
+
+form .field:hover label {
+  width: 18%;
+  background: #313a3d;
+  color: white;
+}
+
+form input[type="submit"] {
+  background: #fd9638;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background: #313a3d;
+  color: #fd9638;
+}
+
+form input[type="submit"]:focus {
+  outline: none;
+  background: #cd6302;
+}
+=======
 /*Fin carousel*/
 
 /*Début fiche spectacle*/
@@ -136,3 +301,4 @@ header {
 
 
 
+>>>>>>> e7404b19d81b2da3383821e4cafc39062412a8d9
