@@ -15,8 +15,8 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a->enter($__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a->enter($__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
 
         // line 1
         echo "<div class=\"trace trace-as-html\">
@@ -103,7 +103,7 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
 </div>
 ";
         
-        $__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a->leave($__internal_91ed33c8489d0eff933768960f299c4d8a827169387b715a70a124ae80e6099a_prof);
+        $__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a->leave($__internal_ccfbd5abe2c87c43c0a9e673ff2941fc19c54eb26c8be2015d0563f38598685a_prof);
 
     }
 
@@ -157,6 +157,6 @@ class __TwigTemplate_d735a8a0977e4ea5c2e8aea2bc2cfb6562d1f7306d68f87dede04b53f66
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "/Applications/MAMP/htdocs/AlloTheatre/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
     }
 }

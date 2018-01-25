@@ -15,8 +15,8 @@ class __TwigTemplate_bd0dd4be34c1284e59d3e98de9c75e67d3ce449bf7359f53856dc463e50
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0fb152f9dd8645ecb073315305ed255bbc1adadc8307bee4d41c66c6399f8281 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0fb152f9dd8645ecb073315305ed255bbc1adadc8307bee4d41c66c6399f8281->enter($__internal_0fb152f9dd8645ecb073315305ed255bbc1adadc8307bee4d41c66c6399f8281_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/exception.html.twig"));
+        $__internal_12e34c36b95fd6228807227e12f4c7b56c4df5325f74292768e7eb451a66d8e8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_12e34c36b95fd6228807227e12f4c7b56c4df5325f74292768e7eb451a66d8e8->enter($__internal_12e34c36b95fd6228807227e12f4c7b56c4df5325f74292768e7eb451a66d8e8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/exception.html.twig"));
 
         // line 1
         echo "<div class=\"exception-summary ";
@@ -341,7 +341,7 @@ class __TwigTemplate_bd0dd4be34c1284e59d3e98de9c75e67d3ce449bf7359f53856dc463e50
 </div>
 ";
         
-        $__internal_0fb152f9dd8645ecb073315305ed255bbc1adadc8307bee4d41c66c6399f8281->leave($__internal_0fb152f9dd8645ecb073315305ed255bbc1adadc8307bee4d41c66c6399f8281_prof);
+        $__internal_12e34c36b95fd6228807227e12f4c7b56c4df5325f74292768e7eb451a66d8e8->leave($__internal_12e34c36b95fd6228807227e12f4c7b56c4df5325f74292768e7eb451a66d8e8_prof);
 
     }
 
@@ -464,6 +464,6 @@ class __TwigTemplate_bd0dd4be34c1284e59d3e98de9c75e67d3ce449bf7359f53856dc463e50
         {% endif %}
     </div>
 </div>
-", "@Twig/Exception/exception.html.twig", "/Applications/MAMP/htdocs/AlloTheatre/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
+", "@Twig/Exception/exception.html.twig", "/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
     }
 }
