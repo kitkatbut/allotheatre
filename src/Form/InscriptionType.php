@@ -14,6 +14,7 @@ use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 class InscriptionType extends AbstractType
 {
@@ -22,28 +23,13 @@ class InscriptionType extends AbstractType
         $builder
             ->add('email', EmailType::class)
             ->add('username', TextType::class)
-            //->add('adresse', TextType::class)
-            //->add('code_postal', TextType::class)
-            //->add('email', choiceType::class,
-                //array('choices' => array(
-                //  'Professionnel'=> 1,
-                //  'Particulier' => 2),
-                //Dans l'ordre libellé et value
-                //'expanded'=>false,
-                //'multiple'=>false))
-            //expanded false + multiple false = select
-            //expanded true + multiple false = radio
-            //expanded true + multiple true = checkbox
-            //->add('dateService', DateType::class,
-                //Pour avoir un seul champs date
-                //Par défault, tous les champs sont required
-                //array('widget' => 'single_text',
-                     // 'required'=> false))
             ->add('password', RepeatedType::class, array(
                 'type' => PasswordType::class,
-                'first_options'  => array('label' => 'Password'),
-                'second_options' => array('label' => 'Repeat Password'),
-            ))
+                'first_options'  => array('label' => 'Mot de passe'),
+                'second_options' => array('label' => 'Confirmer votre mot de passe')))
+            ->add('save', SubmitType::class,
+                array('label' => 'S\'inscrire'))    
+            
         ;
     }
 
@@ -55,4 +41,7 @@ class InscriptionType extends AbstractType
     }
 
 }
+
+
+
 
