@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends Controller
 {
@@ -23,19 +24,19 @@ class SecurityController extends Controller
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
 
-            // 3) Encode the password (you could also do this via Doctrine listener)
-            $password = $passwordEncoder->encodePassword($inscription, $user->getPassword());
-            $inscription->setPassword($password);
-
+             //3) Encode the password (you could also do this via Doctrine listener)
+            $password = $passwordEncoder->encodePassword($inscription, $inscription->getPassword());
+           $inscription->setPassword($password);
+            //dump($inscription);
             // 4) save the User!
             $em = $this->getDoctrine()->getManager();
-            $em->persist($user);
+            $em->persist($inscription);
             $em->flush();
 
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
 
-            return $this->redirectToRoute('homepage');
+            return $this->redirectToRoute('accueil');
         }
 
         return $this->render(
