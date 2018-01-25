@@ -15,8 +15,8 @@ class __TwigTemplate_9de870c02ea01ae8b0943a4a01ed4c6b13a93a72fb65db08ae07b7b470f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a05374a463474a4ad8b6cb1d7466f95b6a4797c89644254c4b2a9dd893801bfe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a05374a463474a4ad8b6cb1d7466f95b6a4797c89644254c4b2a9dd893801bfe->enter($__internal_a05374a463474a4ad8b6cb1d7466f95b6a4797c89644254c4b2a9dd893801bfe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/base_js.html.twig"));
+        $__internal_50afee86a146a8b9dc154443422e6e26acf92b5cbb8a7f48c6be83e56a3f663c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_50afee86a146a8b9dc154443422e6e26acf92b5cbb8a7f48c6be83e56a3f663c->enter($__internal_50afee86a146a8b9dc154443422e6e26acf92b5cbb8a7f48c6be83e56a3f663c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/base_js.html.twig"));
 
         // line 3
         echo "<script";
@@ -201,7 +201,7 @@ class __TwigTemplate_9de870c02ea01ae8b0943a4a01ed4c6b13a93a72fb65db08ae07b7b470f
 /*]]>*/</script>
 ";
         
-        $__internal_a05374a463474a4ad8b6cb1d7466f95b6a4797c89644254c4b2a9dd893801bfe->leave($__internal_a05374a463474a4ad8b6cb1d7466f95b6a4797c89644254c4b2a9dd893801bfe_prof);
+        $__internal_50afee86a146a8b9dc154443422e6e26acf92b5cbb8a7f48c6be83e56a3f663c->leave($__internal_50afee86a146a8b9dc154443422e6e26acf92b5cbb8a7f48c6be83e56a3f663c_prof);
 
     }
 
@@ -399,6 +399,6 @@ class __TwigTemplate_9de870c02ea01ae8b0943a4a01ed4c6b13a93a72fb65db08ae07b7b470f
     });
 
 /*]]>*/</script>
-", "@Twig/base_js.html.twig", "/Applications/MAMP/htdocs/AlloTheatre/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
+", "@Twig/base_js.html.twig", "/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
     }
 }
