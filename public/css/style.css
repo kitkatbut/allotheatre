@@ -259,13 +259,12 @@ form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
 }
-=======
+
 /*Fin carousel*/
 
 /*Début fiche spectacle*/
 
 
-<<<<<<< HEAD
 .container-fluid {
  margin-right:auto;
  margin-left:auto;
@@ -295,8 +294,8 @@ form input[type="submit"]:focus {
 .marge-20 {
   height: 20px;
   display: block; }
-=======
->>>>>>> d6fbede0e0506f67d5333937dfbbc273ae649155
+
+
 
 
 /*Fin fiche spectacle*/
