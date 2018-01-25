@@ -52,18 +52,6 @@ class Inscription implements UserInterface, \Serializable
      */
     private $isActive;
 
-     /**
-     * @ORM\Column(type="string", length=60)
-     * @Assert\NotBlank()
-     */
-    private $adresse;
-
-
-     /**
-     * @ORM\Column(type="integer", length=60)
-     * @Assert\NotBlank()
-     */
-    private $code_postal;
 
     private $roles;
 
@@ -141,43 +129,6 @@ class Inscription implements UserInterface, \Serializable
         return $this;
     }
 
-    /**
-    *@return mixed
-    */
-    public function getAdresse()
-    {
-        return $this->adresse;
-    }
-
-    /**
-    * @param mixed $adresse
-    *
-    * @return self
-    */
-    public function setAdresse()
-    {
-        $this->adresse = $adresse;
-        return $this;
-    }
-
-     /**
-    *@return mixed
-    */
-    public function getCodePostal()
-    {
-        return $this->code_postal;
-    }
-
-    /**
-    * @param mixed $code
-    *
-    * @return self
-    */
-    public function setCodePostal()
-    {
-        $this->code_postal = $code_postal;
-        return $this;
-    }
 
     /**
      * @return mixed
