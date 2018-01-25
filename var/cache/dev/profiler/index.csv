@@ -1,3 +1,16 @@
 fa34bc,127.0.0.1,GET,http://localhost:8000/,1516874654,,200
 8c6283,127.0.0.1,GET,http://localhost:8000/,1516874690,,200
 67e1cb,127.0.0.1,GET,http://localhost:8000/,1516875374,,200
+99efa8,127.0.0.1,GET,http://localhost:8000/,1516876030,,200
+54fb76,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876395,ee7356,200
+ee7356,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876395,,404
+a471bd,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876654,e48041,200
+e48041,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876654,,500
+c4ca49,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876683,,200
+8eda7b,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516877847,,200
+ae7fe3,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878122,,200
+6723fb,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878159,,200
+cf84ca,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878174,,200
+520e55,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878477,,200
+0127a0,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878500,,200
+67a4a9,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878784,,200

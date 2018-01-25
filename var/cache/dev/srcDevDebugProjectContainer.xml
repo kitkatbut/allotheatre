@@ -316,6 +316,9 @@
   </parameters>
   <services>
     <service id="service_container" class="Symfony\Component\DependencyInjection\ContainerInterface" public="true" synthetic="true"/>
+    <service id="App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
     <service id="App\Controller\LuckyController" class="App\Controller\LuckyController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
@@ -3489,6 +3492,8 @@
         <argument>security:encode-password</argument>
       </call>
     </service>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="false" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="false" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\LuckyController" class="App\Controller\LuckyController" public="false" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.App\Controller\LuckyController" class="App\Controller\LuckyController" public="false" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\SecurityController" class="App\Controller\SecurityController" public="false" autowire="true" abstract="true"/>
