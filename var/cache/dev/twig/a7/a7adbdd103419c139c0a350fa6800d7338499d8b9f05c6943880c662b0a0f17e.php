@@ -21,29 +21,29 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8->enter($__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
+        $__internal_db905c77e3c4eaa5540fbfc5a22e2f71da15e23e3012cdb0bcfdb5cec632272d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_db905c77e3c4eaa5540fbfc5a22e2f71da15e23e3012cdb0bcfdb5cec632272d->enter($__internal_db905c77e3c4eaa5540fbfc5a22e2f71da15e23e3012cdb0bcfdb5cec632272d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
 
-        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0->enter($__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
+        $__internal_8cafa13b91fcf7ee2fc1be4f943ffaac4a566732458d66309a38b8739ab98ac9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8cafa13b91fcf7ee2fc1be4f943ffaac4a566732458d66309a38b8739ab98ac9->enter($__internal_8cafa13b91fcf7ee2fc1be4f943ffaac4a566732458d66309a38b8739ab98ac9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8->leave($__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8_prof);
+        $__internal_db905c77e3c4eaa5540fbfc5a22e2f71da15e23e3012cdb0bcfdb5cec632272d->leave($__internal_db905c77e3c4eaa5540fbfc5a22e2f71da15e23e3012cdb0bcfdb5cec632272d_prof);
 
         
-        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0->leave($__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0_prof);
+        $__internal_8cafa13b91fcf7ee2fc1be4f943ffaac4a566732458d66309a38b8739ab98ac9->leave($__internal_8cafa13b91fcf7ee2fc1be4f943ffaac4a566732458d66309a38b8739ab98ac9_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab->enter($__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e0578937d32f2fc4babccc6aae2d67f62e9345eecf8182f9e6f4e5cbb8c552bd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e0578937d32f2fc4babccc6aae2d67f62e9345eecf8182f9e6f4e5cbb8c552bd->enter($__internal_e0578937d32f2fc4babccc6aae2d67f62e9345eecf8182f9e6f4e5cbb8c552bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32->enter($__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4931984a0bdfbb68592eb25eff01f368cabb2311305db4a24a71e794e62d90e2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4931984a0bdfbb68592eb25eff01f368cabb2311305db4a24a71e794e62d90e2->enter($__internal_4931984a0bdfbb68592eb25eff01f368cabb2311305db4a24a71e794e62d90e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "
@@ -55,13 +55,13 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
                                     
 <div class=\"container\">
   <div class=\"row\">
-    <div class=\"col-m\" style=\"color:black;border:1px solid black; \">
+    <div class=\"col\" style=\"color:black;border:1px solid black; \">
         <h1>TITRE SPECTACLE</h1>
     </div>
   </div>
 
   <div class=\"row\">
-    <div class=\"col\" style=\"color:black;border:1px solid black; \">
+    <div class=\"col\" style=\"color:black;border:1px solid black; text-align: center;  \">
         <h1>TRAILER</h1>
     </div>
   </div>
@@ -80,14 +80,40 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
        LIEU & MAPS<br/>
         NOM DE LA SALLE<br/>
         NB DE PLACES</h1>
-    </div>
-    
+    </div>   
   </div>
+
+    <div class=\"row justify-content-md-center\">
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <h1>Séances dispo & dates-heures</h1>
+        </div>
+        <div class=\"col-12 col-md-auto\" style =\"color:black; border:1px solid black; \">
+            <h1>Moyens de paiement<h1>
+        </div>
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <button type=\"button\" class=\"btn btn-deep-orange\">Ajouter aux favoris</button>
+            <button type=\"button\" class=\"btn btn-deep-orange\">AJouter au panier</button>
+        </div>
+    </div>
+
+    <div class=\"row\">
+        <div class=\"col\" style =\"color:black; border:1px solid black; \">
+            <h1>1 of 3</h1>
+        </div>
+        <div class=\"col-12 col-md-auto\" style =\"color:black; border:1px solid black; \">
+            <h1>Variable width content</h1>
+        </div>
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <h1>3 of 3</h1>
+        </div>
+    </div>
+
+
 </div>
                                     
 
 
-</div>
+
                                     
             
 
@@ -99,10 +125,10 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
     
 ";
         
-        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32->leave($__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32_prof);
+        $__internal_4931984a0bdfbb68592eb25eff01f368cabb2311305db4a24a71e794e62d90e2->leave($__internal_4931984a0bdfbb68592eb25eff01f368cabb2311305db4a24a71e794e62d90e2_prof);
 
         
-        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab->leave($__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab_prof);
+        $__internal_e0578937d32f2fc4babccc6aae2d67f62e9345eecf8182f9e6f4e5cbb8c552bd->leave($__internal_e0578937d32f2fc4babccc6aae2d67f62e9345eecf8182f9e6f4e5cbb8c552bd_prof);
 
     }
 
@@ -136,13 +162,13 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
                                     
 <div class=\"container\">
   <div class=\"row\">
-    <div class=\"col-m\" style=\"color:black;border:1px solid black; \">
+    <div class=\"col\" style=\"color:black;border:1px solid black; \">
         <h1>TITRE SPECTACLE</h1>
     </div>
   </div>
 
   <div class=\"row\">
-    <div class=\"col\" style=\"color:black;border:1px solid black; \">
+    <div class=\"col\" style=\"color:black;border:1px solid black; text-align: center;  \">
         <h1>TRAILER</h1>
     </div>
   </div>
@@ -161,14 +187,40 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
        LIEU & MAPS<br/>
         NOM DE LA SALLE<br/>
         NB DE PLACES</h1>
-    </div>
-    
+    </div>   
   </div>
+
+    <div class=\"row justify-content-md-center\">
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <h1>Séances dispo & dates-heures</h1>
+        </div>
+        <div class=\"col-12 col-md-auto\" style =\"color:black; border:1px solid black; \">
+            <h1>Moyens de paiement<h1>
+        </div>
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <button type=\"button\" class=\"btn btn-deep-orange\">Ajouter aux favoris</button>
+            <button type=\"button\" class=\"btn btn-deep-orange\">AJouter au panier</button>
+        </div>
+    </div>
+
+    <div class=\"row\">
+        <div class=\"col\" style =\"color:black; border:1px solid black; \">
+            <h1>1 of 3</h1>
+        </div>
+        <div class=\"col-12 col-md-auto\" style =\"color:black; border:1px solid black; \">
+            <h1>Variable width content</h1>
+        </div>
+        <div class=\"col col-lg-2\" style =\"color:black; border:1px solid black; \">
+            <h1>3 of 3</h1>
+        </div>
+    </div>
+
+
 </div>
                                     
 
 
-</div>
+
                                     
             
 
