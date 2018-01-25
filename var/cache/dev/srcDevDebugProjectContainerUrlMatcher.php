@@ -58,11 +58,6 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\SecurityController::logout',  '_route' => 'deconnexion',);
         }
 
-        // profil
-        if ('/profil' === $pathinfo) {
-            return array (  '_controller' => 'App\\Controller\\SecurityController::showAction',  '_route' => 'profil',);
-        }
-
         // accueil
         if ('' === $trimmedPathinfo) {
             $ret = array (  '_controller' => 'App\\Controller\\SitePublicController::indexAction',  '_route' => 'accueil',);
