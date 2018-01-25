@@ -16,6 +16,11 @@ if (!\class_exists(srcDevDebugProjectContainer::class, false)) {
 
 return new \ContainerXEgenbr\srcDevDebugProjectContainer(array(
     'container.build_hash' => 'XEgenbr',
+<<<<<<< HEAD
     'container.build_id' => '54e9c145',
     'container.build_time' => 1516872772,
+=======
+    'container.build_id' => '0efa0745',
+    'container.build_time' => 1516870455,
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 ));
