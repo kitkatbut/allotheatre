@@ -21,78 +21,195 @@ class __TwigTemplate_a78a79a9a88f973b253340e24b7a1c44b52a492f1222cecebcf772add0b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_3cb77139ab9f0778bb50304920f86413dffc25e309f858af14b7f1aa3946e45e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3cb77139ab9f0778bb50304920f86413dffc25e309f858af14b7f1aa3946e45e->enter($__internal_3cb77139ab9f0778bb50304920f86413dffc25e309f858af14b7f1aa3946e45e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "contact.html.twig"));
+        $__internal_f012d7923152bc24cfa8a1136d659b66a5d63ea75894eede9c03d563eb56ebe2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f012d7923152bc24cfa8a1136d659b66a5d63ea75894eede9c03d563eb56ebe2->enter($__internal_f012d7923152bc24cfa8a1136d659b66a5d63ea75894eede9c03d563eb56ebe2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "contact.html.twig"));
 
-        $__internal_2def3cda95fc00e60b7518e6c49563553411ab650f1f9f8e757c5541bb112c1e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2def3cda95fc00e60b7518e6c49563553411ab650f1f9f8e757c5541bb112c1e->enter($__internal_2def3cda95fc00e60b7518e6c49563553411ab650f1f9f8e757c5541bb112c1e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "contact.html.twig"));
+        $__internal_98c50e3ecadb49ace2c50f438089e7a656b75013e9334d315dece6bed5950012 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_98c50e3ecadb49ace2c50f438089e7a656b75013e9334d315dece6bed5950012->enter($__internal_98c50e3ecadb49ace2c50f438089e7a656b75013e9334d315dece6bed5950012_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "contact.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_3cb77139ab9f0778bb50304920f86413dffc25e309f858af14b7f1aa3946e45e->leave($__internal_3cb77139ab9f0778bb50304920f86413dffc25e309f858af14b7f1aa3946e45e_prof);
+        $__internal_f012d7923152bc24cfa8a1136d659b66a5d63ea75894eede9c03d563eb56ebe2->leave($__internal_f012d7923152bc24cfa8a1136d659b66a5d63ea75894eede9c03d563eb56ebe2_prof);
 
         
-        $__internal_2def3cda95fc00e60b7518e6c49563553411ab650f1f9f8e757c5541bb112c1e->leave($__internal_2def3cda95fc00e60b7518e6c49563553411ab650f1f9f8e757c5541bb112c1e_prof);
+        $__internal_98c50e3ecadb49ace2c50f438089e7a656b75013e9334d315dece6bed5950012->leave($__internal_98c50e3ecadb49ace2c50f438089e7a656b75013e9334d315dece6bed5950012_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_e1a6d477e2855e290f060b549f1626c5f387214e2ae9418c42e95332c675bbdf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e1a6d477e2855e290f060b549f1626c5f387214e2ae9418c42e95332c675bbdf->enter($__internal_e1a6d477e2855e290f060b549f1626c5f387214e2ae9418c42e95332c675bbdf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4350ccc6e28ce627a809859a9f5f0df56c4cabb854b0ee5b62c6f413c1a50d0c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4350ccc6e28ce627a809859a9f5f0df56c4cabb854b0ee5b62c6f413c1a50d0c->enter($__internal_4350ccc6e28ce627a809859a9f5f0df56c4cabb854b0ee5b62c6f413c1a50d0c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_fec84d62a891154939bad2ad9c122e7fa02782c10b59ec0b89b9e3c12892aa9f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fec84d62a891154939bad2ad9c122e7fa02782c10b59ec0b89b9e3c12892aa9f->enter($__internal_fec84d62a891154939bad2ad9c122e7fa02782c10b59ec0b89b9e3c12892aa9f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a56f2f689e1dd15a8353c1c8c70a4bd9ca6ae289ba2ad237ed30c418c928f843 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a56f2f689e1dd15a8353c1c8c70a4bd9ca6ae289ba2ad237ed30c418c928f843->enter($__internal_a56f2f689e1dd15a8353c1c8c70a4bd9ca6ae289ba2ad237ed30c418c928f843_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
-        echo "<h1>LA PAGE CONTACT</h1>
+        echo "
 
+<!--Section: Team v.1-->
+<section class=\"section team-section pb-5\">
 
-            
+       <!--Section heading-->
+       <h2 class=\"h1 text-center py-5\">Our amazing team</h2>
+       <!--Section description-->
+       <p class=\"section-description\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
+           esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+       <!-- Grid row -->
+       <div class=\"row text-center\">
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Anna Williams</strong>
+                   </h5>
+                   <p class=\"grey-text\">Graphic designer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Twitter -->
+                       <a class=\"icons-sm tw-ic\">
+                           <i class=\"fa fa-twitter blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>John Doe</strong>
+                   </h5>
+                   <p class=\"grey-text\">Web developer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Maria Smith</strong>
+                   </h5>
+                   <p class=\"grey-text\">Photographer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                       <!-- Dribbble -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-dribbble blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Tom Adams</strong>
+                   </h5>
+
+                   <p class=\"grey-text\">Backend developer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Github -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-github blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+       </div>
+       <!-- Grid row -->
+
+   </section>
+   <!--Section: Team v.1-->
+           
 <!-- Form contact -->
-<form>
+<section id=\"hire\">
+  <h1>Contact Me</h1>
 
-    <p class=\"h5 text-center mb-4\">Nous écrire</p>
+  <form>
+      <div class=\"field name-box\">
+          <input type=\"text\" id=\"name\" placeholder=\"Who Are You?\"/>
+          <label for=\"name\">Name</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-user prefix grey-text\"></i>
-        <input type=\"text\" id=\"form3\" class=\"form-control\">
-        <label for=\"form3\">Votre nom</label>
-    </div>
+      <div class=\"field email-box\">
+          <input type=\"text\" id=\"email\" placeholder=\"name@email.com\"/>
+          <label for=\"email\">Email</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-envelope prefix grey-text\"></i>
-        <input type=\"text\" id=\"form2\" class=\"form-control\">
-        <label for=\"form2\">Votre mail</label>
-    </div>
+      <div class=\"field msg-box\">
+          <textarea id=\"msg\" rows=\"4\" placeholder=\"Your message goes here...\"/></textarea>
+          <label for=\"msg\">Msg</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-tag prefix grey-text\"></i>
-        <input type=\"text\" id=\"form32\" class=\"form-control\">
-        <label for=\"form34\">Sujet</label>
-    </div>
-
-    <div class=\"md-form\">
-        <i class=\"fa fa-pencil prefix grey-text\"></i>
-        <textarea type=\"text\" id=\"form8\" class=\"md-textarea\" style=\"height: 100px\"></textarea>
-        <label for=\"form8\">Votre message</label>
-    </div>
-
-    <div class=\"text-center\">
-        <button class=\"btn btn-unique\">Envoyer <i class=\"fa fa-paper-plane-o ml-1\"></i></button>
-    </div>
-
+      <input class=\"button\" type=\"submit\" value=\"Send\" />
 </form>
+</section>
 <!-- Form contact -->
-               
-    
+
+
 ";
         
-        $__internal_fec84d62a891154939bad2ad9c122e7fa02782c10b59ec0b89b9e3c12892aa9f->leave($__internal_fec84d62a891154939bad2ad9c122e7fa02782c10b59ec0b89b9e3c12892aa9f_prof);
+        $__internal_a56f2f689e1dd15a8353c1c8c70a4bd9ca6ae289ba2ad237ed30c418c928f843->leave($__internal_a56f2f689e1dd15a8353c1c8c70a4bd9ca6ae289ba2ad237ed30c418c928f843_prof);
 
         
-        $__internal_e1a6d477e2855e290f060b549f1626c5f387214e2ae9418c42e95332c675bbdf->leave($__internal_e1a6d477e2855e290f060b549f1626c5f387214e2ae9418c42e95332c675bbdf_prof);
+        $__internal_4350ccc6e28ce627a809859a9f5f0df56c4cabb854b0ee5b62c6f413c1a50d0c->leave($__internal_4350ccc6e28ce627a809859a9f5f0df56c4cabb854b0ee5b62c6f413c1a50d0c_prof);
 
     }
 
@@ -117,47 +234,165 @@ class __TwigTemplate_a78a79a9a88f973b253340e24b7a1c44b52a492f1222cecebcf772add0b
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<h1>LA PAGE CONTACT</h1>
 
 
-            
+<!--Section: Team v.1-->
+<section class=\"section team-section pb-5\">
+
+       <!--Section heading-->
+       <h2 class=\"h1 text-center py-5\">Our amazing team</h2>
+       <!--Section description-->
+       <p class=\"section-description\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
+           esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+       <!-- Grid row -->
+       <div class=\"row text-center\">
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Anna Williams</strong>
+                   </h5>
+                   <p class=\"grey-text\">Graphic designer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Twitter -->
+                       <a class=\"icons-sm tw-ic\">
+                           <i class=\"fa fa-twitter blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>John Doe</strong>
+                   </h5>
+                   <p class=\"grey-text\">Web developer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Maria Smith</strong>
+                   </h5>
+                   <p class=\"grey-text\">Photographer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Instagram -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-instagram blue-text\"> </i>
+                       </a>
+                       <!-- Dribbble -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-dribbble blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class=\"col-lg-3 col-md-6 mb-r\">
+               <div class=\"card card-body\">
+                   <div class=\"avatar mt-3\">
+                       <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg\" class=\"rounded-circle\" alt=\"First sample avatar image\">
+                   </div>
+                   <h5 class=\"font-bold\">
+                       <strong>Tom Adams</strong>
+                   </h5>
+
+                   <p class=\"grey-text\">Backend developer</p>
+
+                   <ul class=\"list-unstyled\">
+                       <!-- Facebook -->
+                       <a class=\"icons-sm fb-ic\">
+                           <i class=\"fa fa-facebook blue-text\"> </i>
+                       </a>
+                       <!-- Github -->
+                       <a class=\"icons-sm ins-ic\">
+                           <i class=\"fa fa-github blue-text\"> </i>
+                       </a>
+                   </ul>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+       </div>
+       <!-- Grid row -->
+
+   </section>
+   <!--Section: Team v.1-->
+           
 <!-- Form contact -->
-<form>
+<section id=\"hire\">
+  <h1>Contact Me</h1>
 
-    <p class=\"h5 text-center mb-4\">Nous écrire</p>
+  <form>
+      <div class=\"field name-box\">
+          <input type=\"text\" id=\"name\" placeholder=\"Who Are You?\"/>
+          <label for=\"name\">Name</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-user prefix grey-text\"></i>
-        <input type=\"text\" id=\"form3\" class=\"form-control\">
-        <label for=\"form3\">Votre nom</label>
-    </div>
+      <div class=\"field email-box\">
+          <input type=\"text\" id=\"email\" placeholder=\"name@email.com\"/>
+          <label for=\"email\">Email</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-envelope prefix grey-text\"></i>
-        <input type=\"text\" id=\"form2\" class=\"form-control\">
-        <label for=\"form2\">Votre mail</label>
-    </div>
+      <div class=\"field msg-box\">
+          <textarea id=\"msg\" rows=\"4\" placeholder=\"Your message goes here...\"/></textarea>
+          <label for=\"msg\">Msg</label>
+          <span class=\"ss-icon\">check</span>
+      </div>
 
-    <div class=\"md-form\">
-        <i class=\"fa fa-tag prefix grey-text\"></i>
-        <input type=\"text\" id=\"form32\" class=\"form-control\">
-        <label for=\"form34\">Sujet</label>
-    </div>
-
-    <div class=\"md-form\">
-        <i class=\"fa fa-pencil prefix grey-text\"></i>
-        <textarea type=\"text\" id=\"form8\" class=\"md-textarea\" style=\"height: 100px\"></textarea>
-        <label for=\"form8\">Votre message</label>
-    </div>
-
-    <div class=\"text-center\">
-        <button class=\"btn btn-unique\">Envoyer <i class=\"fa fa-paper-plane-o ml-1\"></i></button>
-    </div>
-
+      <input class=\"button\" type=\"submit\" value=\"Send\" />
 </form>
+</section>
 <!-- Form contact -->
-               
-    
-{% endblock %}    ", "contact.html.twig", "D:\\Programmes\\Xampp\\htdocs\\allotheatre\\templates\\contact.html.twig");
+
+
+{% endblock %}
+", "contact.html.twig", "D:\\Programmes\\Xampp\\htdocs\\allotheatre\\templates\\contact.html.twig");
     }
 }
