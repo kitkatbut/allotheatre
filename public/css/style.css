@@ -264,53 +264,8 @@ form input[type="submit"]:focus {
 
 /*Début fiche spectacle*/
 
-.container {
- margin-right:auto;
- margin-left:auto;
- padding-left:15px;
- padding-right:15px
- }
 
-.container-fluid {
- margin-right:auto;
- margin-left:auto;
- padding-left:15px;
- padding-right:15px
-}
 
-.row {
- margin-left:-15px;
- margin-right:-15px
-}
-
- .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, .col-xs-20, .col-sm-20, .col-md-20, .col-lg-20, .col-xs-25, .col-sm-25, .col-md-25, .col-lg-25, .col-xs-30, .col-sm-30, .col-md-30, .col-lg-30, .col-xs-35, .col-sm-35, .col-md-35, .col-lg-35, .col-xs-40, .col-sm-40, .col-md-40, .col-lg-40, .col-xs-45, .col-sm-45, .col-md-45, .col-lg-45, .col-xs-50, .col-sm-50, .col-md-50, .col-lg-50, .col-xs-55, .col-sm-55, .col-md-55, .col-lg-55, .col-xs-60, .col-sm-60, .col-md-60, .col-lg-60 {
- position:relative;
- min-height:1px;
- padding-left:15px;
- padding-right:15px; 
-}
-
-.card-plain .content {
-    background-color: rgba(0, 0, 0, 0.03);
-}
-.card.card-user.card-plain .content {
-    background: transparent;
-}
-
-.marge-20 {
-  height: 20px;
-  display: block; }
-
-  .filter-black:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.66);
-  content: ""; }
 
 
 

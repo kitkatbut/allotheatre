@@ -1,65 +1,22 @@
-<<<<<<< HEAD
-6e6d36,127.0.0.1,GET,http://localhost:8000/contact,1516881191,,200
-753863,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516881377,,200
-e0397a,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516881975,,200
-4f5893,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516882010,,200
-=======
-<<<<<<< HEAD
-ac8bbd,127.0.0.1,GET,http://localhost:8000/,1516883841,,200
-05e6b0,127.0.0.1,GET,http://localhost:8000/inscription,1516883846,,200
-8d55ac,127.0.0.1,POST,http://localhost:8000/inscription,1516883863,,200
-696449,127.0.0.1,POST,http://localhost:8000/inscription,1516883876,,200
-=======
-<<<<<<< HEAD
-bc16f1,127.0.0.1,GET,http://localhost:8000/inscription,1516881523,,200
-117d8f,127.0.0.1,POST,http://localhost:8000/inscription,1516881540,,200
-888d94,127.0.0.1,POST,http://localhost:8000/inscription,1516882213,,200
-12fcaf,127.0.0.1,GET,http://localhost:8000/inscription,1516882398,,200
-53fe54,127.0.0.1,POST,http://localhost:8000/inscription,1516882428,,200
-821b4d,127.0.0.1,GET,http://localhost:8000/inscription,1516883072,,200
-b69afe,127.0.0.1,POST,http://localhost:8000/inscription,1516883094,,200
-664cfb,127.0.0.1,GET,http://localhost:8000/,1516883417,,200
-3d1ead,127.0.0.1,GET,http://localhost:8000/inscription,1516883427,cb772c,200
-cb772c,127.0.0.1,GET,http://localhost:8000/inscription,1516883427,,500
-7849a1,127.0.0.1,GET,http://localhost:8000/inscription,1516883449,,200
-6c37e7,127.0.0.1,GET,http://localhost:8000/inscription,1516883482,,200
-c54b2c,127.0.0.1,POST,http://localhost:8000/inscription,1516883500,,200
-787acf,127.0.0.1,POST,http://localhost:8000/inscription,1516883510,,200
-4ae223,127.0.0.1,GET,http://localhost:8000/inscription,1516883704,,200
-23baf5,127.0.0.1,GET,http://localhost:8000/inscription,1516883722,,200
-413d73,127.0.0.1,GET,http://localhost:8000/inscription,1516883775,,200
-805cf4,127.0.0.1,POST,http://localhost:8000/inscription,1516883795,,200
-=======
-<<<<<<< HEAD
-c3c1aa,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880191,,200
-97e364,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880280,,200
-68fa09,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880414,,200
-68ad34,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880438,,200
-8d1531,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880663,,200
-5391be,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516880818,,200
-=======
-52378d,127.0.0.1,GET,http://localhost:8000/contact,1516880706,,200
-265745,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880707,291f7c,200
-291f7c,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880707,,404
-af3f94,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880707,ce69f3,200
-ce69f3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880707,,404
-7fc911,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880708,270865,200
-270865,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880708,,404
-814c1e,127.0.0.1,GET,http://localhost:8000/contact,1516880740,,200
-428d3b,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880741,e527bf,200
-e527bf,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880741,,404
-47f63d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880741,04b183,200
-04b183,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880741,,404
-207ef7,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880742,48d79c,200
-48d79c,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880742,,404
-6cc11a,127.0.0.1,GET,http://localhost:8000/contact,1516880906,,200
-250552,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880907,91b451,200
-91b451,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516880907,,404
-dfceed,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880908,8aec8f,200
-8aec8f,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516880908,,404
-b3b170,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880908,7cde08,200
-7cde08,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516880908,,404
->>>>>>> 4faead8ddf8e50edc58f5412a941e97272a9652f
->>>>>>> fac10a11edf80c488f72dfbf51de0ce195b9e3b9
->>>>>>> 219e7fe63ba062ae4dc325e0a0c051d9ae87fa48
->>>>>>> 003320b007941c319e8a44690c6819d161fbb885
+6537a1,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516884395,,200
+051105,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516884459,,200
+94034f,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516884580,,200
+e8dc97,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516884645,,200
+f7caa0,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885053,,200
+163140,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885169,,200
+5171c3,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885181,,200
+cf9d28,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885424,,200
+3c5862,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885463,,200
+77d669,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885827,,200
+6ce3ed,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885846,,200
+79e9ad,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885900,,200
+d3991b,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516885925,,200
+5691f0,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886429,,200
+df549d,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886487,,200
+f5fe35,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886734,,200
+17291b,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886756,,200
+e5d691,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886776,,200
+0efe23,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886804,,200
+9f1d2c,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886837,,200
+43743a,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886841,,200
+9f6e82,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516886932,,200
