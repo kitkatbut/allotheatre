@@ -22,8 +22,8 @@ class InscriptionType extends AbstractType
         $builder
             ->add('email', EmailType::class)
             ->add('username', TextType::class)
-            ->add('adresse', TextType::class)
-            ->add('code_postal', TextType::class)
+            //->add('adresse', TextType::class)
+            //->add('code_postal', TextType::class)
             //->add('email', choiceType::class,
                 //array('choices' => array(
                 //  'Professionnel'=> 1,
