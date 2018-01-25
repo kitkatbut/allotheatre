@@ -14,8 +14,20 @@ if (!\class_exists(srcDebugProjectContainer::class, false)) {
     \class_alias(\ContainerENQ2xYU\srcDebugProjectContainer::class, srcDebugProjectContainer::class, false);
 }
 
+<<<<<<< HEAD
 return new \ContainerENQ2xYU\srcDebugProjectContainer(array(
     'container.build_hash' => 'ENQ2xYU',
     'container.build_id' => 'c135522d',
     'container.build_time' => 1516876684,
+=======
+return new \ContainerAjLn8xf\srcDebugProjectContainer(array(
+    'container.build_hash' => 'AjLn8xf',
+<<<<<<< HEAD
+    'container.build_id' => '9b790641',
+    'container.build_time' => 1516876530,
+=======
+    'container.build_id' => '42e8588d',
+    'container.build_time' => 1516876527,
+>>>>>>> 5603ecbd201cf219c6f632aaf5065a88c31597ef
+>>>>>>> 0bec796ad1cf710c43318c714b924e4e8e382155
 ));
