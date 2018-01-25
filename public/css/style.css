@@ -434,6 +434,7 @@ input[type='submit'] {
   display: flex;
   margin: 14px;
   margin: 0.875rem;
+  width: 167%;
 }
 
 .form__input {

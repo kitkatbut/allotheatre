@@ -12,20 +12,26 @@ class SitePublicController extends controller
      */
     public function indexAction()
     {
-        
+
         return $this->render('index.html.twig');
-       
+
     }
-    
+
     /**
     * @Route("/contact", name="contact")
     */
     public function contactAction()
     {
-        
+
         return $this->render('contact.html.twig');
     }
-    
+    /**
+    * @Route("/connexion", name="connexion")
+    */
+    public function connexionAction()
+    {
+
+        return $this->render('connexion.html.twig');
+    }
+
 }
-    
-   
