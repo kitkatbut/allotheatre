@@ -264,13 +264,8 @@ form input[type="submit"]:focus {
 
 /*Début fiche spectacle*/
 
-.container {
- margin-right:auto;
- margin-left:auto;
- padding-left:15px;
- padding-right:15px
- }
 
+<<<<<<< HEAD
 .container-fluid {
  margin-right:auto;
  margin-left:auto;
@@ -300,17 +295,9 @@ form input[type="submit"]:focus {
 .marge-20 {
   height: 20px;
   display: block; }
+=======
+>>>>>>> d6fbede0e0506f67d5333937dfbbc273ae649155
 
-  .filter-black:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.66);
-  content: ""; }
 
 /*Fin fiche spectacle*/
 /* config.css */
