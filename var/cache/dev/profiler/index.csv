@@ -1,4 +1,17 @@
 <<<<<<< HEAD
+e13f24,127.0.0.1,GET,http://localhost:8000/,1516876529,,200
+9006f0,127.0.0.1,GET,http://localhost:8000/,1516876547,,200
+e95e0d,127.0.0.1,GET,http://localhost:8000/contact,1516876566,,200
+c47d0f,127.0.0.1,GET,http://localhost:8000/contact,1516876583,,200
+a8581d,127.0.0.1,GET,http://localhost:8000/inscription,1516876629,,200
+56db2d,127.0.0.1,GET,http://localhost:8000/inscription,1516876760,,200
+0db619,127.0.0.1,GET,http://localhost:8000/contact,1516876829,,200
+=======
+<<<<<<< HEAD
+7c074c,127.0.0.1,GET,http://localhost:8000/,1516876526,,200
+a9f59a,127.0.0.1,GET,http://localhost:8000/contact,1516876549,,200
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 bc35b9,127.0.0.1,GET,http://localhost:8000/,1516874476,,200
 037ef8,127.0.0.1,GET,http://localhost:8000/font/roboto/Roboto-Regular.woff2,1516874477,e667f1,200
@@ -584,6 +597,7 @@ fa34bc,127.0.0.1,GET,http://localhost:8000/,1516874654,,200
 8c6283,127.0.0.1,GET,http://localhost:8000/,1516874690,,200
 67e1cb,127.0.0.1,GET,http://localhost:8000/,1516875374,,200
 >>>>>>> ff51f62b898e62301f688c953c7787776adb97ac
+<<<<<<< HEAD
 075fd8,127.0.0.1,GET,http://localhost:8000/contact,1516876717,,200
 79bc0d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876718,411cac,200
 411cac,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516876718,,404
@@ -598,3 +612,7 @@ df3893,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.
 593101,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516876745,,404
 902bf8,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876745,8a9f6f,200
 8a9f6f,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516876745,,404
+=======
+>>>>>>> f31a0acf26722695a2dc127cfe8951dfafb58992
+>>>>>>> 5603ecbd201cf219c6f632aaf5065a88c31597ef
+>>>>>>> da7a3f970f97669936ef3ae1ae587ac4d221d0bd
