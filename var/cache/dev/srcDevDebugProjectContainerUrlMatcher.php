@@ -35,11 +35,6 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\FicheSpectacleController::ficheSpectacleAction',  '_route' => 'fiche_spectacle',);
         }
 
-        // test
-        if ('/number' === $pathinfo) {
-            return array (  '_controller' => 'App\\Controller\\LuckyController::number',  '_route' => 'test',);
-        }
-
         // inscription
         if ('/inscription' === $pathinfo) {
             return array (  '_controller' => 'App\\Controller\\SecurityController::registerAction',  '_route' => 'inscription',);
