@@ -83,6 +83,11 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\SitePublicController::connexionAction',  '_route' => 'connexion',);
         }
 
+        // profil
+        if ('/profil' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SitePublicController::profilAction',  '_route' => 'profil',);
+        }
+
         if (0 === strpos($pathinfo, '/_')) {
             // _twig_error_test
             if (0 === strpos($pathinfo, '/_error') && preg_match('#^/_error/(?P<code>\\d+)(?:\\.(?P<_format>[^/]++))?$#s', $pathinfo, $matches)) {

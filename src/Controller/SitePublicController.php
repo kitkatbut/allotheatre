@@ -25,7 +25,8 @@ class SitePublicController extends controller
 
         return $this->render('SitePublic/contact.html.twig');
     }
- 
+
+
 
     /**
     * @Route("/connexion", name="connexion")
@@ -35,6 +36,13 @@ class SitePublicController extends controller
 
         return $this->render('security/connexion.html.twig');
     }
+    /**
+    * @Route("/profil", name="profil")
+    */
+    public function profilAction()
+    {
 
+        return $this->render('profil.html.twig');
+    }
 
 }

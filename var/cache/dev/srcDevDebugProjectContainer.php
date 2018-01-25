@@ -14,8 +14,15 @@ if (!\class_exists(srcDevDebugProjectContainer::class, false)) {
     \class_alias(\ContainerCSo35Gf\srcDevDebugProjectContainer::class, srcDevDebugProjectContainer::class, false);
 }
 
+<<<<<<< HEAD
 return new \ContainerCSo35Gf\srcDevDebugProjectContainer(array(
     'container.build_hash' => 'CSo35Gf',
     'container.build_id' => 'c3730d6c',
     'container.build_time' => 1516895401,
+=======
+return new \ContainerJNWLlYD\srcDevDebugProjectContainer(array(
+    'container.build_hash' => 'JNWLlYD',
+    'container.build_id' => '0dd16df9',
+    'container.build_time' => 1516894566,
+>>>>>>> 4c257cea3965c8488cc0da8455170213fdb45f35
 ));
