@@ -4,6 +4,14 @@ DATE DE CREATION: 25/01/2018
 DATE DERNIER MODIF/ICATION : 25/01/2018
 OBJET: Projet final*/
 
+
+header {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/*carousel*/
+
 #carousel {
   position: relative;
   height: 400px;
