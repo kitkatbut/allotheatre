@@ -13,7 +13,7 @@ class SitePublicController extends controller
     public function indexAction()
     {
 
-        return $this->render('index.html.twig');
+        return $this->render('SitePublic/index.html.twig');
 
     }
 
@@ -23,8 +23,13 @@ class SitePublicController extends controller
     public function contactAction()
     {
 
-        return $this->render('contact.html.twig');
+        return $this->render('SitePublic/contact.html.twig');
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 90da407725a20f3a6f65c0d85e7cfa064d10fbe8
 
     /**
     * @Route("/connexion", name="connexion")
@@ -32,7 +37,7 @@ class SitePublicController extends controller
     public function connexionAction()
     {
 
-        return $this->render('connexion.html.twig');
+        return $this->render('security/connexion.html.twig');
     }
 
     /**

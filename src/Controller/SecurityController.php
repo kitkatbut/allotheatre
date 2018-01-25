@@ -53,6 +53,7 @@ class SecurityController extends Controller
     {
         throw new \RuntimeException('You must configure the check path to be handled by the firewall using form_login in your security firewall configuration.');
     }
+<<<<<<< HEAD
     
     /**TEST*/
     /**
@@ -73,4 +74,52 @@ class SecurityController extends Controller
 }
     
 
+=======
+
+    /**
+     * la méthode pour se déconnecter, gérer par Symfony, donc on laisse la méthode de base
+     * la route est définie dans le fichier security.yaml -> vérifier que le chemin soit le même qu'ici
+     * @Route("/deconnexion", name="deconnexion")
+     */
+    public function logout()
+    {
+        throw new \RuntimeException('You must activate the logout in your security firewall configuration.');
+    }
+
+
+    /**
+     * @Route("/login", name="login")
+     */
+    public function login(Request $request)
+    {
+    }
+    public function loginAction(Request $request, AuthenticationUtils $authUtils)
+    {
+        // get the login error if there is one
+        $error = $authUtils->getLastAuthenticationError();
+
+        // last username entered by the user
+        $lastUsername = $authUtils->getLastUsername();
+
+        return $this->render('security/login.html.twig', array(
+            'last_username' => $lastUsername,
+            'error'         => $error
+        ));
+    }
+
+    /**
+    * Renvoie le profil utilisateur
+    * @Route("/profil", name="profil")
+    */
+    public function showAction()
+    {
+
+        return $this->render('security/login.html.twig',array(
+        ));
+
+        // or render a template
+        // in the template, print things with {{ product.name }}
+        // return $this->render('product/show.html.twig', ['product' => $product]);
+    }
+>>>>>>> 90da407725a20f3a6f65c0d85e7cfa064d10fbe8
 }
