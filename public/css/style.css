@@ -110,6 +110,7 @@ header {
   margin: 10px auto;
 }
 
+<<<<<<< HEAD
 /* Form contact*/
 
 body {
@@ -258,3 +259,22 @@ form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
 }
+=======
+/*Fin carousel*/
+
+/*Début fiche spectacle*/
+
+.row {
+ margin-left:-15px;
+ margin-right:-15px
+
+ 
+
+/*Fin fiche spectacle*/
+
+
+
+
+
+
+>>>>>>> e7404b19d81b2da3383821e4cafc39062412a8d9
