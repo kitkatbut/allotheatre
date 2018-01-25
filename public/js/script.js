@@ -1,3 +1,4 @@
+//Carousel
 function moveToSelected(element) {
 
   if (element == "next") {
@@ -28,18 +29,19 @@ function moveToSelected(element) {
 
 // Eventos teclado
 $(document).keydown(function(e) {
-    switch(e.which) {
-        case 37: // left
-        moveToSelected('prev');
-        break;
+  switch (e.which) {
+    case 37: // left
+      moveToSelected('prev');
+      break;
 
-        case 39: // right
-        moveToSelected('next');
-        break;
+    case 39: // right
+      moveToSelected('next');
+      break;
 
-        default: return;
-    }
-    e.preventDefault();
+    default:
+      return;
+  }
+  e.preventDefault();
 });
 
 $('#carousel div').click(function() {
@@ -53,3 +55,6 @@ $('#prev').click(function() {
 $('#next').click(function() {
   moveToSelected('next');
 });
+
+// SideNav Initialization
+$(".button-collapse").sideNav();
