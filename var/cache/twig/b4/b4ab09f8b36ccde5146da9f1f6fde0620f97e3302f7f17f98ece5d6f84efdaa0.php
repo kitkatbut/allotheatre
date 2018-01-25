@@ -15,8 +15,13 @@ class __TwigTemplate_daa1601f182d96019283071f1ea42e31fd4313443ab00b7b39dacf47fdd
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_4cc89bee7bfe18a63867b54023cce86c8a079a11f87fbcad83cede24c0500141 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_4cc89bee7bfe18a63867b54023cce86c8a079a11f87fbcad83cede24c0500141->enter($__internal_4cc89bee7bfe18a63867b54023cce86c8a079a11f87fbcad83cede24c0500141_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+=======
+        $__internal_df346281a04de4b155fbefbeff2394f2c22869c96b06d5f0295324c0c6744679 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_df346281a04de4b155fbefbeff2394f2c22869c96b06d5f0295324c0c6744679->enter($__internal_df346281a04de4b155fbefbeff2394f2c22869c96b06d5f0295324c0c6744679_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
         // line 1
         if (twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 1, $this->getSourceContext()); })()), "function", array())) {
@@ -38,7 +43,11 @@ class __TwigTemplate_daa1601f182d96019283071f1ea42e31fd4313443ab00b7b39dacf47fdd
             echo ((twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 5, $this->getSourceContext()); })()), "function", array())) ? (")") : (""));
         }
         
+<<<<<<< HEAD
         $__internal_4cc89bee7bfe18a63867b54023cce86c8a079a11f87fbcad83cede24c0500141->leave($__internal_4cc89bee7bfe18a63867b54023cce86c8a079a11f87fbcad83cede24c0500141_prof);
+=======
+        $__internal_df346281a04de4b155fbefbeff2394f2c22869c96b06d5f0295324c0c6744679->leave($__internal_df346281a04de4b155fbefbeff2394f2c22869c96b06d5f0295324c0c6744679_prof);
+>>>>>>> c75da957463b412500a8d1755d1cebac634c1262
 
     }
 

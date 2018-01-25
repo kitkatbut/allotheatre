@@ -13,7 +13,7 @@ class SitePublicController extends controller
     public function indexAction()
     {
         
-        return $this->render('SitePublic/index.html.twig');
+        return $this->render('index.html.twig');
        
     }
     
