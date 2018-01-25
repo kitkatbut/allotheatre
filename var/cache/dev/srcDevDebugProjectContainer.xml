@@ -1777,6 +1777,7 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
+<<<<<<< HEAD
         <argument>console.command</argument>
         <argument type="collection">
           <argument type="service" id="debug.debug_handlers_listener"/>
@@ -1785,6 +1786,8 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
+=======
+>>>>>>> fac10a11edf80c488f72dfbf51de0ce195b9e3b9
         <argument>kernel.request</argument>
         <argument type="collection">
           <argument type="service" id="router_listener"/>
