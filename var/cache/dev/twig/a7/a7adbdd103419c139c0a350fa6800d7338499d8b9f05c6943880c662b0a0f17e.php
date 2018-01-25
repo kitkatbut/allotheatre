@@ -21,29 +21,29 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e407df3312d3d4dfa1e20d9970a958ff529979472a860326cdc834bb569769f6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e407df3312d3d4dfa1e20d9970a958ff529979472a860326cdc834bb569769f6->enter($__internal_e407df3312d3d4dfa1e20d9970a958ff529979472a860326cdc834bb569769f6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
+        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8->enter($__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
 
-        $__internal_78c41a83fb16506b2b77daac65a9328c9e20acb70bb04263096f88308769807b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_78c41a83fb16506b2b77daac65a9328c9e20acb70bb04263096f88308769807b->enter($__internal_78c41a83fb16506b2b77daac65a9328c9e20acb70bb04263096f88308769807b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
+        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0->enter($__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "fiche_spectacle.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e407df3312d3d4dfa1e20d9970a958ff529979472a860326cdc834bb569769f6->leave($__internal_e407df3312d3d4dfa1e20d9970a958ff529979472a860326cdc834bb569769f6_prof);
+        $__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8->leave($__internal_a053d267e16142daac011adf55bd845e662213a09b1dc66caba6f95d295e12b8_prof);
 
         
-        $__internal_78c41a83fb16506b2b77daac65a9328c9e20acb70bb04263096f88308769807b->leave($__internal_78c41a83fb16506b2b77daac65a9328c9e20acb70bb04263096f88308769807b_prof);
+        $__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0->leave($__internal_d78d979564fd739fd644391316d258d7b9c46345c808dc8df1e70c0fed9737b0_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_213397ffe9f55d20d454a708b8cb2fcf21324d33b2799d3e4eb7dd909d4d177d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_213397ffe9f55d20d454a708b8cb2fcf21324d33b2799d3e4eb7dd909d4d177d->enter($__internal_213397ffe9f55d20d454a708b8cb2fcf21324d33b2799d3e4eb7dd909d4d177d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab->enter($__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_b417648794fe75d0d56f5705e1eb690b3dabcb1f55cb75d02a28e49f06ae8f5c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b417648794fe75d0d56f5705e1eb690b3dabcb1f55cb75d02a28e49f06ae8f5c->enter($__internal_b417648794fe75d0d56f5705e1eb690b3dabcb1f55cb75d02a28e49f06ae8f5c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32->enter($__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "
@@ -52,24 +52,46 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
             
 <!-- Fiche spectacle -->
 
+                                    
+<div class=\"container\">
+  <div class=\"row\">
+    <div class=\"col-m\" style=\"color:black;border:1px solid black; \">
+        <h1>TITRE SPECTACLE</h1>
+    </div>
+  </div>
 
-<div class=\"example z-depth-4\">
-     <h1>FICHE SPECTACLE</h1>
+  <div class=\"row\">
+    <div class=\"col\" style=\"color:black;border:1px solid black; \">
+        <h1>TRAILER</h1>
+    </div>
+  </div>
+
+  <div class=\"row\">
+    <div class=\"col\" style=\"color:black; border:1px solid black; \">
+        <h1>AFFICHES</h1>
+    </div>
+    
+    <div class=\"col\" style =\"color:black; border:1px solid black; \">
+      <h1>STYLE/SOUS STYLE/RÉSUMÉ SPECTACLE</h1>
+    </div>
+    
+    <div class=\"col\" style =\"color:black; border:1px solid black; \">
+      <h1>NOM THEATRE<br/>
+       LIEU & MAPS<br/>
+        NOM DE LA SALLE<br/>
+        NB DE PLACES</h1>
+    </div>
+    
+  </div>
 </div>
+                                    
 
 
-<div class=\"w-100 p-3\" style=\"background-color: #eee;\">
-    TRAILER ICI    
-</div>                 
-
-
-<div class=\"d-flex justify-content-start\">
-    AFFICHE ICI
 </div>
-<div class=\"d-flex justify-content-end\">NOM DU THEATRE, MAPS, NOM DE LA SALLE, NOMBRE DE PLACE</div>
-<div class=\"d-flex justify-content-center\">...</div>
-<div class=\"d-flex justify-content-between\">...</div>
-<div class=\"d-flex justify-content-around\">...</div>
+                                    
+            
+
+
 
                 
 <!-- Fiche spectacle -->
@@ -77,10 +99,10 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
     
 ";
         
-        $__internal_b417648794fe75d0d56f5705e1eb690b3dabcb1f55cb75d02a28e49f06ae8f5c->leave($__internal_b417648794fe75d0d56f5705e1eb690b3dabcb1f55cb75d02a28e49f06ae8f5c_prof);
+        $__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32->leave($__internal_ba1cd38cb6dd7204245d6ba2fa7daf42c5bd0169cdf86d056782e317b4027b32_prof);
 
         
-        $__internal_213397ffe9f55d20d454a708b8cb2fcf21324d33b2799d3e4eb7dd909d4d177d->leave($__internal_213397ffe9f55d20d454a708b8cb2fcf21324d33b2799d3e4eb7dd909d4d177d_prof);
+        $__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab->leave($__internal_58ad4c50b44d9655fa6449d7373e0a38207ac7256e32dd11ceec309fbb6c28ab_prof);
 
     }
 
@@ -111,24 +133,46 @@ class __TwigTemplate_3e26c69fe50d0ffee5b6f20680098554882526c280e956fee8e23ee4182
             
 <!-- Fiche spectacle -->
 
+                                    
+<div class=\"container\">
+  <div class=\"row\">
+    <div class=\"col-m\" style=\"color:black;border:1px solid black; \">
+        <h1>TITRE SPECTACLE</h1>
+    </div>
+  </div>
 
-<div class=\"example z-depth-4\">
-     <h1>FICHE SPECTACLE</h1>
+  <div class=\"row\">
+    <div class=\"col\" style=\"color:black;border:1px solid black; \">
+        <h1>TRAILER</h1>
+    </div>
+  </div>
+
+  <div class=\"row\">
+    <div class=\"col\" style=\"color:black; border:1px solid black; \">
+        <h1>AFFICHES</h1>
+    </div>
+    
+    <div class=\"col\" style =\"color:black; border:1px solid black; \">
+      <h1>STYLE/SOUS STYLE/RÉSUMÉ SPECTACLE</h1>
+    </div>
+    
+    <div class=\"col\" style =\"color:black; border:1px solid black; \">
+      <h1>NOM THEATRE<br/>
+       LIEU & MAPS<br/>
+        NOM DE LA SALLE<br/>
+        NB DE PLACES</h1>
+    </div>
+    
+  </div>
 </div>
+                                    
 
 
-<div class=\"w-100 p-3\" style=\"background-color: #eee;\">
-    TRAILER ICI    
-</div>                 
-
-
-<div class=\"d-flex justify-content-start\">
-    AFFICHE ICI
 </div>
-<div class=\"d-flex justify-content-end\">NOM DU THEATRE, MAPS, NOM DE LA SALLE, NOMBRE DE PLACE</div>
-<div class=\"d-flex justify-content-center\">...</div>
-<div class=\"d-flex justify-content-between\">...</div>
-<div class=\"d-flex justify-content-around\">...</div>
+                                    
+            
+
+
 
                 
 <!-- Fiche spectacle -->

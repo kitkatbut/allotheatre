@@ -1785,29 +1785,6 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 219e7fe63ba062ae4dc325e0a0c051d9ae87fa48
-        <argument>console.command</argument>
-        <argument type="collection">
-          <argument type="service" id="debug.debug_handlers_listener"/>
-          <argument>configure</argument>
-        </argument>
-        <argument>2048</argument>
-      </call>
-      <call method="addListener">
-<<<<<<< HEAD
-=======
-=======
->>>>>>> fac10a11edf80c488f72dfbf51de0ce195b9e3b9
->>>>>>> 219e7fe63ba062ae4dc325e0a0c051d9ae87fa48
->>>>>>> 3d0d2660101341cef807bf27e0bf17072bb5e033
->>>>>>> 251b1902413e5b3b9896f3fde9b69025e9741617
         <argument>kernel.request</argument>
         <argument type="collection">
           <argument type="service" id="router_listener"/>
