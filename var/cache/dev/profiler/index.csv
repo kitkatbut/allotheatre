@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+fa34bc,127.0.0.1,GET,http://localhost:8000/,1516874654,,200
+8c6283,127.0.0.1,GET,http://localhost:8000/,1516874690,,200
+67e1cb,127.0.0.1,GET,http://localhost:8000/,1516875374,,200
+99efa8,127.0.0.1,GET,http://localhost:8000/,1516876030,,200
+54fb76,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876395,ee7356,200
+ee7356,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876395,,404
+a471bd,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876654,e48041,200
+e48041,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876654,,500
+c4ca49,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516876683,,200
+8eda7b,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516877847,,200
+ae7fe3,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878122,,200
+6723fb,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878159,,200
+cf84ca,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878174,,200
+520e55,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878477,,200
+0127a0,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878500,,200
+67a4a9,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516878784,,200
+=======
 5608b9,127.0.0.1,GET,http://localhost:8000/,1516877257,,200
 e32189,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516877259,c862a5,200
 c862a5,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516877259,,404
@@ -59,6 +77,7 @@ dfaf6e,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.
 60eeec,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516878048,,404
 583ec6,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516878049,0e817b,200
 0e817b,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516878049,,404
+<<<<<<< HEAD
 903cce,127.0.0.1,GET,http://localhost:8000/,1516878187,,200
 72be46,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516878188,9b0400,200
 9b0400,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516878188,,404
@@ -80,3 +99,6 @@ ac89a3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.
 08de0d,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516878531,,404
 e05ee3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516878532,378c86,200
 378c86,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516878532,,404
+=======
+>>>>>>> 0bec796ad1cf710c43318c714b924e4e8e382155
+>>>>>>> e22cb5ddff8b10e2e4f133f205bd8dda26bafd27
