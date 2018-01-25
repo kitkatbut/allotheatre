@@ -1,6 +1,0 @@
-de1269,127.0.0.1,GET,http://localhost:8000/inscription,1516877054,,200
-de44a0,127.0.0.1,GET,http://localhost:8000/inscription,1516877064,,200
-2aecd6,127.0.0.1,GET,http://localhost:8000/inscription,1516879526,68f36c,200
-68f36c,127.0.0.1,POST,http://localhost:8000/inscription,1516879526,,500
-918d15,127.0.0.1,GET,http://localhost:8000/inscription,1516879572,,200
-e84015,127.0.0.1,POST,http://localhost:8000/inscription,1516879591,,200
