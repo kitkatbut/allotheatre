@@ -30,9 +30,9 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
 
-        // test
-        if ('/number' === $pathinfo) {
-            return array (  '_controller' => 'App\\Controller\\LuckyController::number',  '_route' => 'test',);
+        // fiche_spectacle
+        if ('/fiche_spectacle' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\FicheSpectacleController::ficheSpectacleAction',  '_route' => 'fiche_spectacle',);
         }
 
         // inscription
@@ -40,9 +40,22 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'App\\Controller\\SecurityController::registerAction',  '_route' => 'inscription',);
         }
 
-        // login_check
-        if ('/login_check' === $pathinfo) {
-            return array (  '_controller' => 'App\\Controller\\SecurityController::check',  '_route' => 'login_check',);
+        if (0 === strpos($pathinfo, '/login')) {
+            // login_check
+            if ('/login_check' === $pathinfo) {
+                return array (  '_controller' => 'App\\Controller\\SecurityController::check',  '_route' => 'login_check',);
+            }
+
+            // login
+            if ('/login' === $pathinfo) {
+                return array (  '_controller' => 'App\\Controller\\SecurityController::login',  '_route' => 'login',);
+            }
+
+        }
+
+        // deconnexion
+        if ('/deconnexion' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SecurityController::logout',  '_route' => 'deconnexion',);
         }
 
         // accueil
@@ -58,6 +71,16 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // contact
         if ('/contact' === $pathinfo) {
             return array (  '_controller' => 'App\\Controller\\SitePublicController::contactAction',  '_route' => 'contact',);
+        }
+
+        // connexion
+        if ('/connexion' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SitePublicController::connexionAction',  '_route' => 'connexion',);
+        }
+
+        // profil
+        if ('/profil' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\SitePublicController::profilAction',  '_route' => 'profil',);
         }
 
         if (0 === strpos($pathinfo, '/_')) {

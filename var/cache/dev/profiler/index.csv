@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 9de4e8,127.0.0.1,GET,http://localhost:8000/,1516956154,,200
 b8c9df,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516956156,a27625,200
 a27625,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff2?v=4.7.0,1516956156,,404
@@ -15,3 +16,25 @@ d8a6cf,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516956217,54aeb1,200
 bd9824,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.woff?v=4.7.0,1516956233,,404
 fd4cd3,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516956233,2edf5a,200
 2edf5a,127.0.0.1,GET,http://localhost:8000/font/fa/fontawesome-webfont.ttf?v=4.7.0,1516956233,,404
+=======
+566ee7,127.0.0.1,GET,http://localhost:8000/contact,1516896034,,200
+761ff4,127.0.0.1,GET,http://localhost:8000/fichespectacle,1516896044,bf0e38,200
+bf0e38,127.0.0.1,GET,http://localhost:8000/fichespectacle,1516896044,,404
+41f28f,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516896055,,200
+6c2ecc,127.0.0.1,GET,http://localhost:8000/contact,1516903231,,200
+1c2b4d,127.0.0.1,GET,http://localhost:8000/,1516903233,,200
+c3d111,127.0.0.1,GET,http://localhost:8000/,1516903302,,200
+e89ad8,127.0.0.1,GET,http://localhost:8000/contact,1516903313,,200
+e65832,127.0.0.1,GET,http://localhost:8000/inscription,1516903339,,200
+5f6586,127.0.0.1,POST,http://localhost:8000/inscription,1516903383,,302
+da9ce0,127.0.0.1,GET,http://localhost:8000/,1516903383,,200
+468439,127.0.0.1,GET,http://localhost:8000/connexion,1516903402,,200
+ab8e72,127.0.0.1,GET,http://localhost:8000/,1516903575,,200
+56dcdd,127.0.0.1,GET,http://localhost:8000/,1516903700,,200
+2a0806,127.0.0.1,GET,http://localhost:8000/fiche_spectacle,1516903702,,200
+8c8221,127.0.0.1,GET,http://localhost:8000/,1516903707,,200
+1ea166,127.0.0.1,GET,http://localhost:8000/,1516903912,,200
+018bdb,127.0.0.1,GET,http://localhost:8000/,1516904042,,200
+4879ca,127.0.0.1,GET,http://localhost:8000/,1516904054,,200
+e19540,127.0.0.1,GET,http://localhost:8000/,1516904064,,200
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58

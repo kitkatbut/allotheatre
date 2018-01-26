@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
+<<<<<<< HEAD
     <parameter key="kernel.root_dir">C:\xampp\htdocs\allotheatre\src</parameter>
     <parameter key="kernel.project_dir">C:\xampp\htdocs\allotheatre</parameter>
     <parameter key="kernel.environment">dev</parameter>
@@ -8,6 +9,15 @@
     <parameter key="kernel.name">src</parameter>
     <parameter key="kernel.cache_dir">C:\xampp\htdocs\allotheatre\var\cache\dev</parameter>
     <parameter key="kernel.logs_dir">C:\xampp\htdocs\allotheatre\var\log</parameter>
+=======
+    <parameter key="kernel.root_dir">/Applications/MAMP/htdocs/allotheatre/src</parameter>
+    <parameter key="kernel.project_dir">/Applications/MAMP/htdocs/allotheatre</parameter>
+    <parameter key="kernel.environment">dev</parameter>
+    <parameter key="kernel.debug">true</parameter>
+    <parameter key="kernel.name">src</parameter>
+    <parameter key="kernel.cache_dir">/Applications/MAMP/htdocs/allotheatre/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/Applications/MAMP/htdocs/allotheatre/var/log</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="WebServerBundle">Symfony\Bundle\WebServerBundle\WebServerBundle</parameter>
@@ -22,6 +32,7 @@
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
+<<<<<<< HEAD
         <parameter key="path">C:\xampp\htdocs\allotheatre\vendor\symfony\framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
@@ -59,6 +70,45 @@
       </parameter>
       <parameter key="SecurityBundle" type="collection">
         <parameter key="path">C:\xampp\htdocs\allotheatre\vendor\symfony\security-bundle</parameter>
+=======
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/framework-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
+      </parameter>
+      <parameter key="WebServerBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/web-server-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
+      </parameter>
+      <parameter key="SensioFrameworkExtraBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/sensio/framework-extra-bundle</parameter>
+        <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
+      </parameter>
+      <parameter key="TwigBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
+      </parameter>
+      <parameter key="WebProfilerBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/web-profiler-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
+      </parameter>
+      <parameter key="MakerBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/maker-bundle/src</parameter>
+        <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineCacheBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/doctrine/doctrine-cache-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\DoctrineCacheBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineMigrationsBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/doctrine/doctrine-migrations-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
+      </parameter>
+      <parameter key="SecurityBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security-bundle</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
     </parameter>
@@ -82,12 +132,17 @@
       <parameter key="cookie_httponly">true</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
+<<<<<<< HEAD
     <parameter key="session.save_path">C:\xampp\htdocs\allotheatre\var\cache\dev/sessions</parameter>
+=======
+    <parameter key="session.save_path">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/sessions</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">false</parameter>
     <parameter key="asset.request_context.base_path"></parameter>
     <parameter key="asset.request_context.secure">false</parameter>
     <parameter key="validator.mapping.cache.prefix"></parameter>
+<<<<<<< HEAD
     <parameter key="validator.mapping.cache.file">C:\xampp\htdocs\allotheatre\var\cache\dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="translator.logging">true</parameter>
@@ -97,6 +152,17 @@
     <parameter key="profiler.storage.dsn">file:C:\xampp\htdocs\allotheatre\var\cache\dev/profiler</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
     <parameter key="debug.container.dump">C:\xampp\htdocs\allotheatre\var\cache\dev/srcDevDebugProjectContainer.xml</parameter>
+=======
+    <parameter key="validator.mapping.cache.file">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.translation_domain">validators</parameter>
+    <parameter key="translator.logging">true</parameter>
+    <parameter key="translator.default_path">/Applications/MAMP/htdocs/allotheatre/translations</parameter>
+    <parameter key="profiler_listener.only_exceptions">false</parameter>
+    <parameter key="profiler_listener.only_master_requests">false</parameter>
+    <parameter key="profiler.storage.dsn">file:/Applications/MAMP/htdocs/allotheatre/var/cache/dev/profiler</parameter>
+    <parameter key="debug.error_handler.throw_at">-1</parameter>
+    <parameter key="debug.container.dump">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/srcDevDebugProjectContainer.xml</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
@@ -108,7 +174,11 @@
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
+<<<<<<< HEAD
     <parameter key="twig.default_path">C:\xampp\htdocs\allotheatre/templates</parameter>
+=======
+    <parameter key="twig.default_path">/Applications/MAMP/htdocs/allotheatre/templates</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
     <parameter key="web_profiler.debug_toolbar.mode">2</parameter>
     <parameter key="doctrine_cache.apc.class">Doctrine\Common\Cache\ApcCache</parameter>
@@ -218,9 +288,15 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
+<<<<<<< HEAD
     <parameter key="doctrine.orm.proxy_dir">C:\xampp\htdocs\allotheatre\var\cache\dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="doctrine_migrations.dir_name">C:\xampp\htdocs\allotheatre/src/Migrations</parameter>
+=======
+    <parameter key="doctrine.orm.proxy_dir">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
+    <parameter key="doctrine_migrations.dir_name">/Applications/MAMP/htdocs/allotheatre/src/Migrations</parameter>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <parameter key="doctrine_migrations.namespace">DoctrineMigrations</parameter>
     <parameter key="doctrine_migrations.table_name">migration_versions</parameter>
     <parameter key="doctrine_migrations.name">Application Migrations</parameter>
@@ -228,7 +304,15 @@
     <parameter key="doctrine_migrations.organize_migrations">false</parameter>
     <parameter key="security.authentication.trust_resolver.anonymous_class">Symfony\Component\Security\Core\Authentication\Token\AnonymousToken</parameter>
     <parameter key="security.authentication.trust_resolver.rememberme_class">Symfony\Component\Security\Core\Authentication\Token\RememberMeToken</parameter>
-    <parameter key="security.role_hierarchy.roles" type="collection"/>
+    <parameter key="security.role_hierarchy.roles" type="collection">
+      <parameter key="ROLE_ADMIN" type="collection">
+        <parameter>ROLE_USER</parameter>
+      </parameter>
+      <parameter key="ROLE_SUPER_ADMIN" type="collection">
+        <parameter>ROLE_ADMIN</parameter>
+        <parameter>ROLE_ALLOWED_TO_SWITCH</parameter>
+      </parameter>
+    </parameter>
     <parameter key="security.access.denied_url">null</parameter>
     <parameter key="security.authentication.manager.erase_credentials">true</parameter>
     <parameter key="security.authentication.session_strategy.strategy">migrate</parameter>
@@ -316,7 +400,7 @@
   </parameters>
   <services>
     <service id="service_container" class="Symfony\Component\DependencyInjection\ContainerInterface" public="true" synthetic="true"/>
-    <service id="App\Controller\LuckyController" class="App\Controller\LuckyController" public="true" autowire="true" autoconfigure="true">
+    <service id="App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\SecurityController" class="App\Controller\SecurityController" public="true" autowire="true" autoconfigure="true">
@@ -349,7 +433,7 @@
     </service>
     <service id="argument_resolver.service" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-50"/>
-      <argument type="service" id="service_locator..IeMFQ0"/>
+      <argument type="service" id="service_locator.8jZr5ml"/>
     </service>
     <service id="argument_resolver.default" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-100"/>
@@ -401,9 +485,15 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem" public="true"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator" public="false">
       <argument type="service" id="kernel"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\src/Resources</argument>
       <argument type="collection">
         <argument>C:\xampp\htdocs\allotheatre\src</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/src/Resources</argument>
+      <argument type="collection">
+        <argument>/Applications/MAMP/htdocs/allotheatre/src</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner" public="false">
@@ -545,8 +635,13 @@
       <argument type="service" id="translator.data_collector"/>
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre/translations</argument>
       <argument>C:\xampp\htdocs\allotheatre/templates</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/translations</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/templates</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <call method="setName">
         <argument>debug:translation</argument>
       </call>
@@ -557,8 +652,13 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre/translations</argument>
       <argument>C:\xampp\htdocs\allotheatre/templates</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/translations</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/templates</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <call method="setName">
         <argument>translation:update</argument>
       </call>
@@ -631,7 +731,11 @@
       <argument></argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -660,7 +764,11 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -718,14 +826,23 @@
       </argument>
     </service>
     <service id="translator.selector" class="Symfony\Component\Translation\MessageSelector" public="false"/>
+<<<<<<< HEAD
     <service id="2_ServiceLocator~_JO0EfJ" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+=======
+    <service id="2_ServiceLocator~7E6sHBo" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="session" type="service" id="session" on-invalid="ignore"/>
       </argument>
     </service>
+<<<<<<< HEAD
     <service id="1_NativeFileSessionHandler~_JO0EfJ" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/sessions</argument>
+=======
+    <service id="1_NativeFileSessionHandler~7E6sHBo" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/sessions</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="session" class="Symfony\Component\HttpFoundation\Session\Session" public="true">
       <argument type="service" id="session.storage.native"/>
@@ -748,24 +865,40 @@
     <service id="session.flash_bag" class="Symfony\Component\HttpFoundation\Session\Flash\FlashBag" public="false"/>
     <service id="session.attribute_bag" class="Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag" public="false"/>
     <service id="session.storage.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage" public="false">
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/sessions</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/sessions</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler" public="false">
+<<<<<<< HEAD
       <argument type="service" id="1_NativeFileSessionHandler~_JO0EfJ"/>
+=======
+      <argument type="service" id="1_NativeFileSessionHandler~7E6sHBo"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="session_listener" class="Symfony\Component\HttpKernel\EventListener\SessionListener" public="false">
       <tag name="kernel.event_subscriber"/>
       <tag name="container.hot_path"/>
+<<<<<<< HEAD
       <argument type="service" id="2_ServiceLocator~_JO0EfJ"/>
+=======
+      <argument type="service" id="2_ServiceLocator~7E6sHBo"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="session.save_listener" class="Symfony\Component\HttpKernel\EventListener\SaveSessionListener" public="false">
       <tag name="kernel.event_subscriber"/>
       <tag name="container.hot_path"/>
     </service>
     <service id="form.resolved_type_factory" class="Symfony\Component\Form\Extension\DataCollector\Proxy\ResolvedTypeFactoryDataCollectorProxy" public="false">
+<<<<<<< HEAD
       <argument type="service" id="1_ResolvedFormTypeFactory~R.Him8N"/>
+=======
+      <argument type="service" id="1_ResolvedFormTypeFactory~iVBg8VH"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="data_collector.form"/>
     </service>
     <service id="form.registry" class="Symfony\Component\Form\FormRegistry" public="false">
@@ -879,8 +1012,13 @@
       <argument type="service" id="assets.empty_version_strategy"/>
       <argument type="service" id="assets.context"/>
     </service>
+<<<<<<< HEAD
     <service id="1_PhpArrayAdapter~wC5z3v9" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/validation.php</argument>
+=======
+    <service id="1_PhpArrayAdapter~NjB5bwI" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/validation.php</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -896,7 +1034,11 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
+<<<<<<< HEAD
           <argument>C:\xampp\htdocs\allotheatre\vendor\symfony\form/Resources/config/validation.xml</argument>
+=======
+          <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/config/validation.xml</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -915,11 +1057,19 @@
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
     </service>
     <service id="validator.mapping.cache.symfony" class="Symfony\Component\Validator\Mapping\Cache\Psr6Cache" public="false">
       <argument type="service" id="1_PhpArrayAdapter~wC5z3v9"/>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/validation.php</argument>
+      <argument type="service" id="cache.validator"/>
+    </service>
+    <service id="validator.mapping.cache.symfony" class="Symfony\Component\Validator\Mapping\Cache\Psr6Cache" public="false">
+      <argument type="service" id="1_PhpArrayAdapter~NjB5bwI"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="validator.validator_factory" class="Symfony\Component\Validator\ContainerConstraintValidatorFactory" public="false">
       <argument type="service" id="service_locator.O9Ft2wK"/>
@@ -973,6 +1123,7 @@
         </argument>
       </argument>
       <argument type="collection">
+<<<<<<< HEAD
         <argument key="cache_dir">C:\xampp\htdocs\allotheatre\var\cache\dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
@@ -1206,6 +1357,241 @@
           </argument>
           <argument key="ua" type="collection">
             <argument>C:\xampp\htdocs\allotheatre\vendor\symfony\security\Core/Resources/translations\security.ua.xlf</argument>
+=======
+        <argument key="cache_dir">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/translations</argument>
+        <argument key="debug">true</argument>
+        <argument key="resource_files" type="collection">
+          <argument key="af" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
+          </argument>
+          <argument key="ar" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ar.xlf</argument>
+          </argument>
+          <argument key="az" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.az.xlf</argument>
+          </argument>
+          <argument key="bg" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.bg.xlf</argument>
+          </argument>
+          <argument key="ca" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ca.xlf</argument>
+          </argument>
+          <argument key="cs" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.cs.xlf</argument>
+          </argument>
+          <argument key="cy" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
+          </argument>
+          <argument key="da" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.da.xlf</argument>
+          </argument>
+          <argument key="de" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.de.xlf</argument>
+          </argument>
+          <argument key="el" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.el.xlf</argument>
+          </argument>
+          <argument key="en" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.en.xlf</argument>
+          </argument>
+          <argument key="es" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.es.xlf</argument>
+          </argument>
+          <argument key="et" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
+          </argument>
+          <argument key="eu" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
+          </argument>
+          <argument key="fa" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.fa.xlf</argument>
+          </argument>
+          <argument key="fi" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
+          </argument>
+          <argument key="fr" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.fr.xlf</argument>
+          </argument>
+          <argument key="gl" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.gl.xlf</argument>
+          </argument>
+          <argument key="he" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.he.xlf</argument>
+          </argument>
+          <argument key="hr" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.hr.xlf</argument>
+          </argument>
+          <argument key="hu" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.hu.xlf</argument>
+          </argument>
+          <argument key="hy" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
+          </argument>
+          <argument key="id" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.id.xlf</argument>
+          </argument>
+          <argument key="it" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.it.xlf</argument>
+          </argument>
+          <argument key="ja" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ja.xlf</argument>
+          </argument>
+          <argument key="lb" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.lb.xlf</argument>
+          </argument>
+          <argument key="lt" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.lt.xlf</argument>
+          </argument>
+          <argument key="lv" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.lv.xlf</argument>
+          </argument>
+          <argument key="mn" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
+          </argument>
+          <argument key="nl" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.nl.xlf</argument>
+          </argument>
+          <argument key="nn" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
+          </argument>
+          <argument key="no" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.no.xlf</argument>
+          </argument>
+          <argument key="pl" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.pl.xlf</argument>
+          </argument>
+          <argument key="pt" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
+          </argument>
+          <argument key="pt_BR" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.pt_BR.xlf</argument>
+          </argument>
+          <argument key="ro" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ro.xlf</argument>
+          </argument>
+          <argument key="ru" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ru.xlf</argument>
+          </argument>
+          <argument key="sk" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.sk.xlf</argument>
+          </argument>
+          <argument key="sl" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.sl.xlf</argument>
+          </argument>
+          <argument key="sq" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
+          </argument>
+          <argument key="sr_Cyrl" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.sr_Cyrl.xlf</argument>
+          </argument>
+          <argument key="sr_Latn" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.sr_Latn.xlf</argument>
+          </argument>
+          <argument key="sv" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.sv.xlf</argument>
+          </argument>
+          <argument key="th" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.th.xlf</argument>
+          </argument>
+          <argument key="tr" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.tr.xlf</argument>
+          </argument>
+          <argument key="uk" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
+          </argument>
+          <argument key="vi" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.vi.xlf</argument>
+          </argument>
+          <argument key="zh_CN" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.zh_CN.xlf</argument>
+          </argument>
+          <argument key="zh_TW" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
+          </argument>
+          <argument key="pt_PT" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.pt_PT.xlf</argument>
+          </argument>
+          <argument key="ua" type="collection">
+            <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security/Core/Resources/translations/security.ua.xlf</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
           </argument>
         </argument>
       </argument>
@@ -1475,7 +1861,11 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
+<<<<<<< HEAD
       <argument>file:C:\xampp\htdocs\allotheatre\var\cache\dev/profiler</argument>
+=======
+      <argument>file:/Applications/MAMP/htdocs/allotheatre/var/cache/dev/profiler</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener" public="false">
       <tag name="kernel.event_subscriber"/>
@@ -1512,7 +1902,11 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service" id="logger" on-invalid="ignore"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/srcDevDebugProjectContainer</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/srcDevDebugProjectContainer</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector" public="false">
       <tag name="data_collector" template="@WebProfiler/Collector/time.html.twig" id="time" priority="330"/>
@@ -1550,7 +1944,11 @@
         <argument type="service" id="cache.annotations"/>
       </call>
     </service>
+<<<<<<< HEAD
     <service id="1_ResolvedFormTypeFactory~R.Him8N" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+=======
+    <service id="1_ResolvedFormTypeFactory~iVBg8VH" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <service id="form.type_extension.form.data_collector" class="Symfony\Component\Form\Extension\DataCollector\Type\DataCollectorTypeExtension" public="false">
       <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType"/>
       <argument type="service" id="data_collector.form"/>
@@ -1608,7 +2006,11 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" public="false">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>/_profiler/open?file=%%f&amp;line=%%l#line%%l</argument>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -1767,14 +2169,6 @@
       </call>
       <call method="addListener">
         <argument>kernel.request</argument>
-        <argument type="collection">
-          <argument type="service" id="debug.debug_handlers_listener"/>
-          <argument>configure</argument>
-        </argument>
-        <argument>2048</argument>
-      </call>
-      <call method="addListener">
-        <argument>console.command</argument>
         <argument type="collection">
           <argument type="service" id="debug.debug_handlers_listener"/>
           <argument>configure</argument>
@@ -1997,7 +2391,11 @@
       <argument type="service" id="service_container"/>
       <argument>kernel:loadRoutes</argument>
       <argument type="collection">
+<<<<<<< HEAD
         <argument key="cache_dir">C:\xampp\htdocs\allotheatre\var\cache\dev</argument>
+=======
+        <argument key="cache_dir">/Applications/MAMP/htdocs/allotheatre/var/cache/dev</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -2038,7 +2436,11 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="logger" on-invalid="ignore"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -2064,12 +2466,21 @@
       <argument type="service" id="file_locator"/>
       <argument type="service" id="routing.loader.annotation"/>
     </service>
+<<<<<<< HEAD
     <service id="2_PhpArrayAdapter~R5Nl591" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
     <service id="1_ArrayCache~R5Nl591" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
+=======
+    <service id="2_PhpArrayAdapter~R5FAwJE" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/annotations.php</argument>
+      <argument type="service" id="cache.annotations"/>
+      <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
+    </service>
+    <service id="1_ArrayCache~R5FAwJE" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <service id="annotations.reader" class="Doctrine\Common\Annotations\AnnotationReader" public="false">
       <call method="addGlobalIgnoredName">
         <argument>required</argument>
@@ -2087,12 +2498,20 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/annotations.php</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/annotations.php</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="cache.annotations"/>
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!AbstractController$|Controller$))#</argument>
     </service>
     <service id="annotations.cache" class="Symfony\Component\Cache\DoctrineProvider" public="false">
+<<<<<<< HEAD
       <argument type="service" id="2_PhpArrayAdapter~R5Nl591"/>
+=======
+      <argument type="service" id="2_PhpArrayAdapter~R5FAwJE"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="property_accessor" class="Symfony\Component\PropertyAccess\PropertyAccessor" public="false">
       <argument>false</argument>
@@ -2101,7 +2520,11 @@
     </service>
     <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
       <tag name="console.command" command="server:run"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre/public</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/public</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>dev</argument>
       <call method="setName">
         <argument>server:run</argument>
@@ -2109,7 +2532,11 @@
     </service>
     <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
       <tag name="console.command" command="server:start"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre/public</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/public</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>dev</argument>
       <call method="setName">
         <argument>server:start</argument>
@@ -2210,7 +2637,11 @@
       <argument type="service" id="twig.loader.native_filesystem"/>
       <argument type="collection">
         <argument key="paths" type="collection">
+<<<<<<< HEAD
           <argument key="C:\xampp\htdocs\allotheatre/templates">null</argument>
+=======
+          <argument key="/Applications/MAMP/htdocs/allotheatre/templates">null</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
         </argument>
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
@@ -2219,9 +2650,15 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
+<<<<<<< HEAD
         <argument key="cache">C:\xampp\htdocs\allotheatre\var\cache\dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="default_path">C:\xampp\htdocs\allotheatre/templates</argument>
+=======
+        <argument key="cache">/Applications/MAMP/htdocs/allotheatre/var/cache/dev/twig</argument>
+        <argument key="charset">UTF-8</argument>
+        <argument key="default_path">/Applications/MAMP/htdocs/allotheatre/templates</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
         <argument key="date" type="collection">
           <argument key="format">F j, Y H:i</argument>
           <argument key="interval_format">%d days</argument>
@@ -2308,16 +2745,28 @@
       <argument type="service" id="service_locator.WXS0TxV.twig.cache_warmer"/>
       <argument>null</argument>
       <argument type="collection">
+<<<<<<< HEAD
         <argument key="C:\xampp\htdocs\allotheatre/templates">null</argument>
         <argument key="C:\xampp\htdocs\allotheatre\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
+=======
+        <argument key="/Applications/MAMP/htdocs/allotheatre/templates">null</argument>
+        <argument key="/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </argument>
     </service>
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
       <argument type="service" id="kernel"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\src</argument>
       <argument type="collection">
         <argument key="C:\xampp\htdocs\allotheatre/templates">null</argument>
         <argument key="C:\xampp\htdocs\allotheatre\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/src</argument>
+      <argument type="collection">
+        <argument key="/Applications/MAMP/htdocs/allotheatre/templates">null</argument>
+        <argument key="/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer" public="false">
@@ -2330,6 +2779,7 @@
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader" public="false">
       <tag name="twig.loader"/>
       <argument type="collection"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
       <call method="addPath">
         <argument>C:\xampp\htdocs\allotheatre/templates</argument>
@@ -2387,6 +2837,65 @@
       </call>
       <call method="addPath">
         <argument>C:\xampp\htdocs\allotheatre\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/templates</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/framework-bundle/Resources/views</argument>
+        <argument>Framework</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/framework-bundle/Resources/views</argument>
+        <argument>!Framework</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views</argument>
+        <argument>Twig</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bundle/Resources/views</argument>
+        <argument>!Twig</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>!WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/maker-bundle/src/Resources/views</argument>
+        <argument>Maker</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/maker-bundle/src/Resources/views</argument>
+        <argument>!Maker</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>!Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>!Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/templates</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/allotheatre/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader" public="false"/>
@@ -2412,7 +2921,11 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre\src</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre/src</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension" public="false">
@@ -2490,7 +3003,11 @@
     <service id="twig.command.debug" class="Symfony\Bridge\Twig\Command\DebugCommand" public="false">
       <tag name="console.command" command="debug:twig"/>
       <argument type="service" id="twig"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <call method="setName">
         <argument>debug:twig</argument>
       </call>
@@ -2502,7 +3019,11 @@
         <argument>lint:twig</argument>
       </call>
     </service>
+<<<<<<< HEAD
     <service id="2_HtmlDumper~jyWjiJs" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+=======
+    <service id="2_HtmlDumper~BhmyNCv" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument>null</argument>
       <argument>UTF-8</argument>
       <argument>1</argument>
@@ -2513,14 +3034,22 @@
         </argument>
       </call>
     </service>
+<<<<<<< HEAD
     <service id="1_NonceGenerator~jyWjiJs" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+=======
+    <service id="1_NonceGenerator~BhmyNCv" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <service id="web_profiler.controller.profiler" class="Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController" public="true">
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="profiler" on-invalid="null"/>
       <argument type="service" id="twig"/>
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -2533,11 +3062,19 @@
       <argument>true</argument>
     </service>
     <service id="web_profiler.csp.handler" class="Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler" public="false">
+<<<<<<< HEAD
       <argument type="service" id="1_NonceGenerator~jyWjiJs"/>
     </service>
     <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="2_HtmlDumper~jyWjiJs"/>
+=======
+      <argument type="service" id="1_NonceGenerator~BhmyNCv"/>
+    </service>
+    <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
+      <tag name="twig.extension"/>
+      <argument type="service" id="2_HtmlDumper~BhmyNCv"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener" public="false">
       <tag name="kernel.event_subscriber"/>
@@ -2551,7 +3088,11 @@
     </service>
     <service id="maker.file_manager" class="Symfony\Bundle\MakerBundle\FileManager" public="false">
       <argument type="service" id="filesystem"/>
+<<<<<<< HEAD
       <argument>C:\xampp\htdocs\allotheatre</argument>
+=======
+      <argument>/Applications/MAMP/htdocs/allotheatre</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="maker.generator" class="Symfony\Bundle\MakerBundle\Generator" public="false">
       <argument type="service" id="maker.file_manager"/>
@@ -2889,7 +3430,11 @@
         <argument type="service" id="doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
+<<<<<<< HEAD
         <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/doctrine/orm/Proxies</argument>
+=======
+        <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/doctrine/orm/Proxies</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -2919,7 +3464,11 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
+<<<<<<< HEAD
         <argument>C:\xampp\htdocs\allotheatre\src\Entity</argument>
+=======
+        <argument>/Applications/MAMP/htdocs/allotheatre/src/Entity</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </argument>
     </service>
     <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
@@ -2930,17 +3479,29 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf_orm_default_255248e33ff4e02f0abb5a7fdfe9a537561c7defb54c974245c336d3ad93be08</argument>
+=======
+        <argument>sf_orm_default_07eb7ed7d3c6c0c34192e3ef2a1b228ff270d8bdbdabc822be564be419e1ad5e</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf_orm_default_255248e33ff4e02f0abb5a7fdfe9a537561c7defb54c974245c336d3ad93be08</argument>
+=======
+        <argument>sf_orm_default_07eb7ed7d3c6c0c34192e3ef2a1b228ff270d8bdbdabc822be564be419e1ad5e</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf_orm_default_255248e33ff4e02f0abb5a7fdfe9a537561c7defb54c974245c336d3ad93be08</argument>
+=======
+        <argument>sf_orm_default_07eb7ed7d3c6c0c34192e3ef2a1b228ff270d8bdbdabc822be564be419e1ad5e</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver">
@@ -2980,7 +3541,11 @@
     <service id="doctrine_migrations.version_command" class="Doctrine\Bundle\MigrationsBundle\Command\MigrationsVersionDoctrineCommand">
       <tag name="console.command"/>
     </service>
+<<<<<<< HEAD
     <service id="1_ServiceLocator~6UFwKw2" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+=======
+    <service id="1_ServiceLocator~Q24_w2d" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="security.authorization_checker" type="service" id="security.authorization_checker"/>
@@ -2997,7 +3562,11 @@
       <tag name="kernel.reset" method="setToken"/>
     </service>
     <service id="security.helper" class="Symfony\Component\Security\Core\Security" public="false">
+<<<<<<< HEAD
       <argument type="service" id="1_ServiceLocator~6UFwKw2"/>
+=======
+      <argument type="service" id="1_ServiceLocator~Q24_w2d"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     </service>
     <service id="security.user_value_resolver" class="Symfony\Bundle\SecurityBundle\SecurityUserValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="40"/>
@@ -3005,6 +3574,8 @@
     </service>
     <service id="security.authentication.manager" class="Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager" public="false">
       <argument type="iterator">
+        <argument type="service" id="security.authentication.provider.dao.main"/>
+        <argument type="service" id="security.authentication.provider.rememberme.main"/>
         <argument type="service" id="security.authentication.provider.anonymous.main"/>
       </argument>
       <argument>true</argument>
@@ -3020,7 +3591,14 @@
       <argument>migrate</argument>
     </service>
     <service id="security.encoder_factory.generic" class="Symfony\Component\Security\Core\Encoder\EncoderFactory" public="false">
-      <argument type="collection"/>
+      <argument type="collection">
+        <argument key="App\Entity\Inscription" type="collection">
+          <argument key="class">Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder</argument>
+          <argument key="arguments" type="collection">
+            <argument>14</argument>
+          </argument>
+        </argument>
+      </argument>
     </service>
     <service id="security.user_password_encoder.generic" class="Symfony\Component\Security\Core\Encoder\UserPasswordEncoder" public="false">
       <argument type="service" id="security.encoder_factory.generic"/>
@@ -3030,20 +3608,21 @@
       <argument type="service" id="request_stack"/>
     </service>
     <service id="security.role_hierarchy" class="Symfony\Component\Security\Core\Role\RoleHierarchy" public="false">
-      <argument type="collection"/>
-    </service>
-    <service id="security.access.simple_role_voter" class="Symfony\Component\Security\Core\Authorization\Voter\RoleVoter" public="false">
-      <tag name="security.voter" priority="245"/>
+      <argument>%security.role_hierarchy.roles%</argument>
     </service>
     <service id="security.access.authenticated_voter" class="Symfony\Component\Security\Core\Authorization\Voter\AuthenticatedVoter" public="false">
       <tag name="security.voter" priority="250"/>
       <argument type="service" id="security.authentication.trust_resolver"/>
     </service>
+    <service id="security.access.role_hierarchy_voter" class="Symfony\Component\Security\Core\Authorization\Voter\RoleHierarchyVoter" public="false">
+      <tag name="security.voter" priority="245"/>
+      <argument type="service" id="security.role_hierarchy"/>
+    </service>
     <service id="security.firewall.map" class="Symfony\Bundle\SecurityBundle\Security\FirewallMap" public="false">
       <argument type="service" id="service_locator.Yy3h0rs"/>
       <argument type="iterator">
         <argument key="security.firewall.map.context.dev" type="service" id="security.request_matcher.zfHj2lW"/>
-        <argument key="security.firewall.map.context.main">null</argument>
+        <argument key="security.firewall.map.context.main" type="service" id="security.request_matcher.00qF1Z7"/>
       </argument>
     </service>
     <service id="security.firewall.context" class="Symfony\Bundle\SecurityBundle\Security\FirewallContext" public="false" abstract="true">
@@ -3069,6 +3648,14 @@
       <argument type="service" id="request_stack" on-invalid="null"/>
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="security.token_storage" on-invalid="null"/>
+      <call method="registerListener">
+        <argument>main</argument>
+        <argument>/deconnexion</argument>
+        <argument>logout</argument>
+        <argument>_csrf_token</argument>
+        <argument>null</argument>
+        <argument>null</argument>
+      </call>
     </service>
     <service id="security.user.provider.in_memory" class="Symfony\Component\Security\Core\User\InMemoryUserProvider" public="false" abstract="true"/>
     <service id="security.user.provider.in_memory.user" class="Symfony\Component\Security\Core\User\User" public="false" abstract="true"/>
@@ -3113,12 +3700,27 @@
       <argument type="service" id="security.authentication.retry_entry_point"/>
       <argument type="service" id="logger" on-invalid="null"/>
     </service>
-    <service id="security.access_map" class="Symfony\Component\Security\Http\AccessMap" public="false"/>
+    <service id="security.access_map" class="Symfony\Component\Security\Http\AccessMap" public="false">
+      <call method="add">
+        <argument type="service" id="security.request_matcher.Yk6K2AJ"/>
+        <argument type="collection">
+          <argument>ROLE_SUPER_ADMIN</argument>
+        </argument>
+        <argument>null</argument>
+      </call>
+      <call method="add">
+        <argument type="service" id="security.request_matcher.9PRut0X"/>
+        <argument type="collection">
+          <argument>ROLE_USER</argument>
+        </argument>
+        <argument>null</argument>
+      </call>
+    </service>
     <service id="security.context_listener" class="Symfony\Component\Security\Http\Firewall\ContextListener" public="false">
       <tag name="monolog.logger" channel="security"/>
       <argument type="service" id="security.token_storage"/>
       <argument type="iterator">
-        <argument type="service" id="security.user.provider.concrete.in_memory"/>
+        <argument type="service" id="security.user.provider.concrete.main"/>
       </argument>
       <argument></argument>
       <argument type="service" id="logger" on-invalid="null"/>
@@ -3403,7 +4005,12 @@
       <argument type="service" id="debug.event_dispatcher"/>
       <argument type="service" id="security.logout_url_generator"/>
     </service>
-    <service id="security.user.provider.concrete.in_memory" class="Symfony\Component\Security\Core\User\InMemoryUserProvider" public="false"/>
+    <service id="security.user.provider.concrete.main" class="Symfony\Bridge\Doctrine\Security\User\EntityUserProvider" public="false">
+      <argument type="service" id="doctrine"/>
+      <argument>App\Entity\Inscription</argument>
+      <argument>username</argument>
+      <argument>null</argument>
+    </service>
     <service id="security.firewall.map.config.dev" class="Symfony\Bundle\SecurityBundle\Security\FirewallConfig" public="false">
       <argument>dev</argument>
       <argument>security.user_checker</argument>
@@ -3429,28 +4036,155 @@
     <service id="security.firewall.map.config.main" class="Symfony\Bundle\SecurityBundle\Security\FirewallConfig" public="false">
       <argument>main</argument>
       <argument>security.user_checker</argument>
-      <argument>null</argument>
+      <argument>security.request_matcher.00qF1Z7</argument>
       <argument>true</argument>
       <argument>false</argument>
-      <argument>security.user.provider.concrete.in_memory</argument>
+      <argument>security.user.provider.concrete.main</argument>
       <argument>main</argument>
-      <argument>null</argument>
+      <argument>security.authentication.form_entry_point.main</argument>
       <argument>null</argument>
       <argument>null</argument>
       <argument type="collection">
+        <argument>logout</argument>
+        <argument>form_login</argument>
+        <argument>remember_me</argument>
         <argument>anonymous</argument>
       </argument>
       <argument>null</argument>
     </service>
+    <service id="security.request_matcher.00qF1Z7" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/</argument>
+    </service>
     <service id="security.context_listener.0" class="Symfony\Component\Security\Http\Firewall\ContextListener" public="false">
       <argument type="service" id="security.token_storage"/>
       <argument type="iterator">
-        <argument type="service" id="security.user.provider.concrete.in_memory"/>
+        <argument type="service" id="security.user.provider.concrete.main"/>
       </argument>
       <argument>main</argument>
       <argument type="service" id="logger" on-invalid="null"/>
       <argument type="service" id="debug.event_dispatcher" on-invalid="null"/>
       <argument type="service" id="security.authentication.trust_resolver"/>
+    </service>
+    <service id="security.logout_listener.main" class="Symfony\Component\Security\Http\Firewall\LogoutListener" public="false">
+      <argument type="service" id="security.token_storage"/>
+      <argument type="service" id="security.http_utils"/>
+      <argument type="service" id="security.logout.success_handler.main"/>
+      <argument type="collection">
+        <argument key="csrf_parameter">_csrf_token</argument>
+        <argument key="csrf_token_id">logout</argument>
+        <argument key="logout_path">/deconnexion</argument>
+      </argument>
+      <call method="addHandler">
+        <argument type="service" id="security.logout.handler.session"/>
+      </call>
+      <call method="addHandler">
+        <argument type="service" id="security.authentication.rememberme.services.simplehash.main"/>
+      </call>
+    </service>
+    <service id="security.logout.success_handler.main" class="Symfony\Component\Security\Http\Logout\DefaultLogoutSuccessHandler" public="false">
+      <argument type="service" id="security.http_utils"/>
+      <argument>/</argument>
+    </service>
+    <service id="security.authentication.provider.dao.main" class="Symfony\Component\Security\Core\Authentication\Provider\DaoAuthenticationProvider" public="false">
+      <argument type="service" id="security.user.provider.concrete.main"/>
+      <argument type="service" id="security.user_checker"/>
+      <argument>main</argument>
+      <argument type="service" id="security.encoder_factory.generic"/>
+      <argument>true</argument>
+    </service>
+    <service id="security.authentication.success_handler.main.form_login" class="Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler" public="false">
+      <argument type="service" id="security.http_utils"/>
+      <argument type="collection"/>
+      <call method="setOptions">
+        <argument type="collection">
+          <argument key="login_path">login</argument>
+          <argument key="always_use_default_target_path">false</argument>
+          <argument key="default_target_path">/</argument>
+          <argument key="target_path_parameter">_target_path</argument>
+          <argument key="use_referer">false</argument>
+        </argument>
+      </call>
+      <call method="setProviderKey">
+        <argument>main</argument>
+      </call>
+    </service>
+    <service id="security.authentication.failure_handler.main.form_login" class="Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler" public="false">
+      <argument type="service" id="http_kernel"/>
+      <argument type="service" id="security.http_utils"/>
+      <argument type="collection"/>
+      <argument type="service" id="logger" on-invalid="null"/>
+      <call method="setOptions">
+        <argument type="collection">
+          <argument key="login_path">login</argument>
+          <argument key="failure_path">null</argument>
+          <argument key="failure_forward">false</argument>
+          <argument key="failure_path_parameter">_failure_path</argument>
+        </argument>
+      </call>
+    </service>
+    <service id="security.authentication.listener.form.main" class="Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener" public="false">
+      <tag name="security.remember_me_aware" id="main" provider="security.user.provider.concrete.main"/>
+      <argument type="service" id="security.token_storage"/>
+      <argument type="service" id="security.authentication.manager"/>
+      <argument type="service" id="security.authentication.session_strategy"/>
+      <argument type="service" id="security.http_utils"/>
+      <argument>main</argument>
+      <argument type="service" id="security.authentication.success_handler.main.form_login"/>
+      <argument type="service" id="security.authentication.failure_handler.main.form_login"/>
+      <argument type="collection">
+        <argument key="check_path">login_check</argument>
+        <argument key="use_forward">false</argument>
+        <argument key="require_previous_session">false</argument>
+        <argument key="username_parameter">_username</argument>
+        <argument key="password_parameter">_password</argument>
+        <argument key="csrf_parameter">_csrf_token</argument>
+        <argument key="csrf_token_id">authenticate</argument>
+        <argument key="post_only">true</argument>
+      </argument>
+      <argument type="service" id="logger" on-invalid="null"/>
+      <argument type="service" id="debug.event_dispatcher" on-invalid="null"/>
+      <argument>null</argument>
+      <call method="setRememberMeServices">
+        <argument type="service" id="security.authentication.rememberme.services.simplehash.main"/>
+      </call>
+    </service>
+    <service id="security.authentication.form_entry_point.main" class="Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint" public="false">
+      <argument type="service" id="http_kernel"/>
+      <argument type="service" id="security.http_utils"/>
+      <argument>login</argument>
+      <argument>false</argument>
+    </service>
+    <service id="security.authentication.provider.rememberme.main" class="Symfony\Component\Security\Core\Authentication\Provider\RememberMeAuthenticationProvider" public="false">
+      <argument type="service" id="security.user_checker"/>
+      <argument>%env(APP_SECRET)%</argument>
+      <argument>main</argument>
+    </service>
+    <service id="security.authentication.rememberme.services.simplehash.main" class="Symfony\Component\Security\Http\RememberMe\TokenBasedRememberMeServices" public="false">
+      <argument type="collection">
+        <argument type="service" id="security.user.provider.concrete.main"/>
+      </argument>
+      <argument>%env(APP_SECRET)%</argument>
+      <argument>main</argument>
+      <argument type="collection">
+        <argument key="lifetime">604800</argument>
+        <argument key="path">/</argument>
+        <argument key="name">REMEMBERME</argument>
+        <argument key="domain">null</argument>
+        <argument key="secure">false</argument>
+        <argument key="httponly">true</argument>
+        <argument key="always_remember_me">false</argument>
+        <argument key="remember_me_parameter">_remember_me</argument>
+      </argument>
+      <argument type="service" id="logger" on-invalid="null"/>
+    </service>
+    <service id="security.authentication.listener.rememberme.main" class="Symfony\Component\Security\Http\Firewall\RememberMeListener" public="false">
+      <argument type="service" id="security.token_storage"/>
+      <argument type="service" id="security.authentication.rememberme.services.simplehash.main"/>
+      <argument type="service" id="security.authentication.manager"/>
+      <argument type="service" id="logger" on-invalid="null"/>
+      <argument type="service" id="debug.event_dispatcher" on-invalid="null"/>
+      <argument>true</argument>
+      <argument type="service" id="security.authentication.session_strategy"/>
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -3466,7 +4200,7 @@
       <argument type="service" id="security.authentication.trust_resolver"/>
       <argument type="service" id="security.http_utils"/>
       <argument>main</argument>
-      <argument>null</argument>
+      <argument type="service" id="security.authentication.form_entry_point.main"/>
       <argument>null</argument>
       <argument>null</argument>
       <argument type="service" id="logger" on-invalid="null"/>
@@ -3476,6 +4210,9 @@
       <argument type="iterator">
         <argument type="service" id="security.channel_listener"/>
         <argument type="service" id="security.context_listener.0"/>
+        <argument type="service" id="security.logout_listener.main"/>
+        <argument type="service" id="security.authentication.listener.form.main"/>
+        <argument type="service" id="security.authentication.listener.rememberme.main"/>
         <argument type="service" id="security.authentication.listener.anonymous.main"/>
         <argument type="service" id="security.access_listener"/>
       </argument>
@@ -3489,16 +4226,24 @@
         <argument key="security.firewall.map.context.main" type="service" id="security.firewall.map.context.main"/>
       </argument>
     </service>
+    <service id="security.request_matcher.Yk6K2AJ" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/admin</argument>
+    </service>
+    <service id="security.request_matcher.9PRut0X" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/profil</argument>
+    </service>
     <service id="security.command.user_password_encoder" class="Symfony\Bundle\SecurityBundle\Command\UserPasswordEncoderCommand" public="false">
       <tag name="console.command" command="security:encode-password"/>
       <argument type="service" id="security.encoder_factory.generic"/>
-      <argument type="collection"/>
+      <argument type="collection">
+        <argument>App\Entity\Inscription</argument>
+      </argument>
       <call method="setName">
         <argument>security:encode-password</argument>
       </call>
     </service>
-    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\LuckyController" class="App\Controller\LuckyController" public="false" autowire="true" abstract="true"/>
-    <service id="abstract.instanceof.App\Controller\LuckyController" class="App\Controller\LuckyController" public="false" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="false" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.App\Controller\FicheSpectacleController" class="App\Controller\FicheSpectacleController" public="false" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\SecurityController" class="App\Controller\SecurityController" public="false" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.App\Controller\SecurityController" class="App\Controller\SecurityController" public="false" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\SitePublicController" class="App\Controller\SitePublicController" public="false" autowire="true" abstract="true"/>
@@ -3609,10 +4354,22 @@
         <argument key="passwordEncoder" type="service" id="security.user_password_encoder.generic" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id="service_locator..IeMFQ0" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="service_locator.nR0lCt0" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection"/>
+    </service>
+    <service id="service_locator.KELS8pk" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
+        <argument key="authUtils" type="service" id="security.authentication_utils" on-invalid="ignore"/>
+      </argument>
+    </service>
+    <service id="service_locator.8jZr5ml" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="App\Controller\SecurityController:loginAction" type="service" id="service_locator.KELS8pk"/>
         <argument key="App\Controller\SecurityController:registerAction" type="service" id="service_locator.nlTUiRz"/>
+        <argument key="App\Controller\SecurityController::loginAction" type="service" id="service_locator.KELS8pk"/>
         <argument key="App\Controller\SecurityController::registerAction" type="service" id="service_locator.nlTUiRz"/>
       </argument>
     </service>
@@ -3802,7 +4559,7 @@
     <service id="debug.security.access.decision_manager.inner" class="Symfony\Component\Security\Core\Authorization\AccessDecisionManager" public="false">
       <argument type="iterator">
         <argument type="service" id="security.access.authenticated_voter"/>
-        <argument type="service" id="security.access.simple_role_voter"/>
+        <argument type="service" id="security.access.role_hierarchy_voter"/>
       </argument>
       <argument>affirmative</argument>
       <argument>false</argument>
@@ -3871,42 +4628,76 @@
       <argument>true</argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter" public="false">
+<<<<<<< HEAD
       <argument>0Y6wRtuBM6</argument>
       <argument>0</argument>
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>i-3lvqnHta</argument>
+      <argument>0</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
+<<<<<<< HEAD
       <argument>QJjn1W1wRZ</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>xYe8P9sWY7</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
+<<<<<<< HEAD
       <argument>TKLj8Pn3kZ</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>8IN02HXsQ-</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
+<<<<<<< HEAD
       <argument>MmhIKMnR1g</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>1d4xM581ld</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
+<<<<<<< HEAD
       <argument>eUsFHlTUDw</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\xampp\htdocs\allotheatre\var\cache\dev/pools</argument>
+=======
+      <argument>9HZG9pRVf+</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>/Applications/MAMP/htdocs/allotheatre/var/cache/dev/pools</argument>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -4004,8 +4795,13 @@
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem" public="false"/>
     <service id="twig.loader" alias="twig.loader.native_filesystem"/>
     <service id="Psr\Log\LoggerInterface" alias="logger" public="false"/>
+<<<<<<< HEAD
     <service id="service_locator.FaDxC1e" alias="2_ServiceLocator~_JO0EfJ" public="false"/>
     <service id="service_locator.DL1KH.a" alias="1_ServiceLocator~6UFwKw2" public="false"/>
+=======
+    <service id="service_locator.FaDxC1e" alias="2_ServiceLocator~7E6sHBo" public="false"/>
+    <service id="service_locator.DL1KH.a" alias="1_ServiceLocator~Q24_w2d" public="false"/>
+>>>>>>> 348fb456109680eaf0ffeae7afd6f51a8b00ed58
     <service id="validator" alias="debug.validator" public="true"/>
     <service id="translator.data_collector.inner" alias="translator.default" public="false"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher" public="true"/>

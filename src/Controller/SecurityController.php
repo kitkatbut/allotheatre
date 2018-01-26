@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends Controller
 {
@@ -23,19 +24,19 @@ class SecurityController extends Controller
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
 
-            // 3) Encode the password (you could also do this via Doctrine listener)
-            $password = $passwordEncoder->encodePassword($inscription, $user->getPassword());
-            $inscription->setPassword($password);
-
+             //3) Encode the password (you could also do this via Doctrine listener)
+            $password = $passwordEncoder->encodePassword($inscription, $inscription->getPassword());
+           $inscription->setPassword($password);
+            //dump($inscription);
             // 4) save the User!
             $em = $this->getDoctrine()->getManager();
-            $em->persist($user);
+            $em->persist($inscription);
             $em->flush();
 
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
 
-            return $this->redirectToRoute('homepage');
+            return $this->redirectToRoute('accueil');
         }
 
         return $this->render(
@@ -52,4 +53,73 @@ class SecurityController extends Controller
     {
         throw new \RuntimeException('You must configure the check path to be handled by the firewall using form_login in your security firewall configuration.');
     }
+<<<<<<< HEAD
+    
+    /**TEST*/
+    /**
+     * @Route("/profil", name="profil")
+     */
+   public function login(Request $request, AuthenticationUtils $authUtils)
+{
+    // get the login error if there is one
+    $error = $authUtils->getLastAuthenticationError();
+
+    // last username entered by the user
+    $lastUsername = $authUtils->getLastUsername();
+
+    return $this->render('profil.html.twig', array(
+        'last_username' => $lastUsername,
+        'error'         => $error,
+    ));
+}
+    
+
+=======
+
+    /**
+     * la méthode pour se déconnecter, gérer par Symfony, donc on laisse la méthode de base
+     * la route est définie dans le fichier security.yaml -> vérifier que le chemin soit le même qu'ici
+     * @Route("/deconnexion", name="deconnexion")
+     */
+    public function logout()
+    {
+        throw new \RuntimeException('You must activate the logout in your security firewall configuration.');
+    }
+
+
+    /**
+     * @Route("/login", name="login")
+     */
+    public function login(Request $request)
+    {
+    }
+    public function loginAction(Request $request, AuthenticationUtils $authUtils)
+    {
+        // get the login error if there is one
+        $error = $authUtils->getLastAuthenticationError();
+
+        // last username entered by the user
+        $lastUsername = $authUtils->getLastUsername();
+
+        return $this->render('security/login.html.twig', array(
+            'last_username' => $lastUsername,
+            'error'         => $error
+        ));
+    }
+
+    /**
+    * Renvoie le profil utilisateur
+    * @Route("/profil", name="profil")
+    */
+    public function showAction()
+    {
+
+        return $this->render('security/login.html.twig',array(
+        ));
+
+        // or render a template
+        // in the template, print things with {{ product.name }}
+        // return $this->render('product/show.html.twig', ['product' => $product]);
+    }
+>>>>>>> 90da407725a20f3a6f65c0d85e7cfa064d10fbe8
 }
