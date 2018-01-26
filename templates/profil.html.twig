@@ -1,3 +1,4 @@
+<!--
 {# templates/profil.html.twig #}
 {# extends base.html.twig #}
 
@@ -6,7 +7,6 @@
 {% endif %}
 
 {% block body %}
-<!--
 <form action="{{ path('login') }}" method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="_username" value="{{ last_username }}" />
@@ -22,7 +22,16 @@
 
     <button type="submit">login</button>
 </form>
--->
 <h1>JE SUIS TRISTESSE</h1>
+
+{% endblock %}
+-->
+{% extends 'base.html.twig' %}
+
+{% block main %}
+	
+{# pour récupérer les informations sur l'utilisateur (ne fonctionne qu'avec l'utilisateur) app.user.information voulue #}
+<p>Bonjour {{ app.user.username }}</p>
+
 
 {% endblock %}
