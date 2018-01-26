@@ -91,6 +91,28 @@ class SecurityController extends Controller
 
 
     /**
+
+     * @Route("/login", name="login")
+     */
+    // public function login(Request $request)
+    // {
+    // }
+    public function loginAction(Request $request, AuthenticationUtils $authUtils)
+    {
+        // get the login error if there is one
+        $error = $authUtils->getLastAuthenticationError();
+
+        // last username entered by the user
+        $lastUsername = $authUtils->getLastUsername();
+
+        return $this->render('security/login.html.twig', array(
+            'last_username' => $lastUsername,
+            'error'         => $error
+        ));
+    }
+
+    /**
+
     * Renvoie le profil utilisateur
     * @Route("/profil", name="profil")
     */
@@ -104,4 +126,5 @@ class SecurityController extends Controller
         // in the template, print things with {{ product.name }}
         // return $this->render('product/show.html.twig', ['product' => $product]);
     }
+
 }
