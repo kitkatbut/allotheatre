@@ -90,9 +90,9 @@ class SecurityController extends Controller
     /**
      * @Route("/login", name="login")
      */
-    public function login(Request $request)
-    {
-    }
+    // public function login(Request $request)
+    // {
+    // }
     public function loginAction(Request $request, AuthenticationUtils $authUtils)
     {
         // get the login error if there is one
