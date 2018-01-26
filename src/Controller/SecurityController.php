@@ -53,7 +53,7 @@ class SecurityController extends Controller
     {
         throw new \RuntimeException('You must configure the check path to be handled by the firewall using form_login in your security firewall configuration.');
     }
-<<<<<<< HEAD
+
     
     /**TEST*/
     /**
@@ -74,7 +74,7 @@ class SecurityController extends Controller
 }
     
 
-=======
+
 
     /**
      * la méthode pour se déconnecter, gérer par Symfony, donc on laisse la méthode de base
@@ -121,5 +121,5 @@ class SecurityController extends Controller
         // in the template, print things with {{ product.name }}
         // return $this->render('product/show.html.twig', ['product' => $product]);
     }
->>>>>>> 90da407725a20f3a6f65c0d85e7cfa064d10fbe8
+
 }
