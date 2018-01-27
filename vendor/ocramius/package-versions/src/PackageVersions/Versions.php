@@ -26,7 +26,7 @@ final class Versions
   'doctrine/orm' => 'v2.6.0@374e7ace49d864dad8cddbc55346447c8a6a2083',
   'jdorn/sql-formatter' => 'v1.2.17@64990d96e0959dff8e059dfcdc1af130728d92bc',
   'ocramius/package-versions' => '1.2.0@ad8a245decad4897cc6b432743913dad0d69753c',
-  'ocramius/proxy-manager' => '2.1.1@e18ac876b2e4819c76349de8f78ccc8ef1554cd7',
+  'ocramius/proxy-manager' => '2.2.0@81d53b2878f1d1c40ad27270e64b51798485dfc5',
   'psr/cache' => '1.0.1@d11b50ad223250cf17b86e38383413f5a6764bf8',
   'psr/container' => '1.0.0@b7ce3b176482dbbc1245ebf52b181af44c2cf55f',
   'psr/log' => '1.0.2@4ebe3a8bf773a19edfe0a84b6585ba3d401b724d',
@@ -75,7 +75,7 @@ final class Versions
   'symfony/var-dumper' => 'v4.0.3@883f6109a2069773e088c08626b87a3d3d61c566',
   'symfony/web-profiler-bundle' => 'v4.0.3@20a04d0672d7f538d1c06ded7bf5990f23c089aa',
   'symfony/web-server-bundle' => 'v4.0.3@20ad52df8164d2eae029e6bb24356956c52380be',
-  '__root__' => 'dev-master@4faead8ddf8e50edc58f5412a941e97272a9652f',
+  '__root__' => 'dev-Audrey@dba9e3785618423bcdbc4beb710ecdbc73b4d2e0',
 );
 
     private function __construct()

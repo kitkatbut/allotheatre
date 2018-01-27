@@ -1,0 +1,36 @@
+{# templates/connexion.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{% if error %}
+    <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+{% endif %}
+
+<div class="grid">
+
+  <!--<form action="https://httpbin.org/post" method="POST" class="form login">-->
+   <!-- <form action="https://www.netflix.com/" method="POST" class="form login"> -->
+    <form action="{{ path('login_check') }}" method="POST" class="form login">
+    
+     <div class="form__field">
+      <label for="username"><span class="hidden">Username</span></label>
+      <input id="username" type="text" name="_username" value="{{ last_username }}" required>
+    </div>
+
+    <div class="form__field">
+      <label for="password"><span class="hidden">Password</span></label>
+      <input id="password" type="password"  name="_password" class="form__input" required>
+    </div>
+
+    <div class="form__field">
+      <input type="submit" value="Sign In">
+    </div>
+     <input type="hidden" name="_target_path" value="{{ path('profil') }}" />
+  </form>
+
+  <p class="text--center">Not a member? <a href="#">Sign up now</a> <svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/images/icons.svg#arrow-right"></use></svg></p>
+
+</div>
+
+
+{% endblock %}

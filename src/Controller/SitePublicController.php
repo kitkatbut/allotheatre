@@ -44,5 +44,13 @@ class SitePublicController extends controller
 
         return $this->render('profil.html.twig');
     }
+    /**
+    * @Route("/connexion", name="connexion")
+    */
+    public function connexionAction()
+    {
+
+        return $this->render('connexion.html.twig');
+    }
 
 }

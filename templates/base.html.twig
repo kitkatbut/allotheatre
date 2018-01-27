@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<meta name="description" content="">-->
     <meta name="author" content="Claire Moreau, Amel Choquet, Chafika Morsli, Audrey Rebolle">
-    <!--<link rel="icon" href="">-->
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
   <!-- Material Design Bootstrap -->
   <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
@@ -22,131 +24,60 @@
 {% block header %}
 
 
-<body class="fixed-sn white-skin">
+<body class="fixed-sn">
 
-  <!--Double navigation-->
-  <header>
-    <!-- Sidebar navigation -->
-    <div id="slide-out" class="side-nav sn-bg-4 fixed mdb-sidenav">
-      <ul class="custom-scrollbar list-unstyled" style="max-height:100vh;">
-        <!-- Logo -->
-        <li>
-          <div class="logo-wrapper waves-light">
-            <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a>
-          </div>
-        </li>
-        <!--/. Logo -->
-        <!--Social-->
-        <li>
-          <ul class="social">
-            <li><a href="#" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
-
-            <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
-            <li><a href="#" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
-          </ul>
-        </li>
-        <!--/Social-->
-        <!--Search Form-->
-        <li>
-          <form class="search-form" role="search">
-            <div class="form-group waves-light">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-          </form>
-        </li>
-        <!--/.Search Form-->
-        <!-- Side navigation links -->
-        <li>
-          <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i> Cirque/Clown<i class="fa fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">Cirque</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Clown</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i> Conte/poésie/lecture<i class="fa fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">Conte</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Poésie</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Lecture</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> Danse/Danse-Théâtre<i class="fa fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">Danse</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Danse-Théâtre</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact me<i class="fa fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <!--/. Side navigation links -->
-      </ul>
       <div class="sidenav-bg mask-strong"></div>
     </div>
     <!--/. Sidebar navigation -->
 
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-light scrolling-navbar double-nav">
+
+      <a class="navbar-brand" href="#">
+     <img src="images/logo2.png" alt="logo Allo Théâtre" class="logo">
+    </a>
+
+
       <!-- SideNav slide-out button -->
-      <div class="float-left">
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-      </div>
-      <a href="{{ path('accueil') }}"><i class="fa fa-home"></i></a>
-      <!-- Breadcrumb-->
-      <div class="breadcrumb-dn mr-auto">
-        <p>ALLOTHEATRE</p>
-      </div>
+
       <ul class="nav navbar-nav nav-flex-icons ml-auto">
         <li class="nav-item">
-          <a href="{{ path('contact') }}" class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
+        <a href="{{ path('accueil') }}"><img src="images/stage.png"/></a>
+      </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"><img src="images/ticket1.png"/><span class="clearfix d-none d-sm-inline-block">Recherche par genre:</span>
+
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
         </li>
         <li class="nav-item">
-          <a href="{{ path('inscription') }}" class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Inscription</span></a>
+          <a href="{{ path('contact') }}" class="nav-link"><img src="images/ticket1.png"/><span class="clearfix d-none d-sm-inline-block">Contact</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ path('inscription') }}" class="nav-link"><img src="images/positif.png"/><span class="clearfix d-none d-sm-inline-block">Inscription</span></a>
 
         </li>
 
-        <li class="nav-item">
+      <!--  <li class="nav-item">
 
           <a href="{{ path('login') }}" class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Se Connecter</span></a>
 
-        </li>
-        <li class="nav-item dropdown">
+        </li>-->
+      <!--Boutons déconnexions
+      <li class="nav-item">
+
+         <a href="{{ path('login') }}" class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Se Déconnecter</span></a>
+
+       </li>
+      -->
+        <!--<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Mon Compte</span>
 
                                   </a>
@@ -155,10 +86,9 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li>-->
       </ul>
     </nav>
-    <!-- /.Navbar -->
 
   </header>
 
@@ -239,7 +169,7 @@
           <!--Excerpt-->
           <a href="" class="green-text">
           <h6 class="font-bold pb-1">
-              <i class="fa fa-cutlery"></i> Food</h6>
+              <i class="fa fa-cutlery icone"></i> Food</h6>
           </a>
           <h3 class="mb-4 font-bold dark-grey-text">
           <strong>This is title of the news</strong>
@@ -267,7 +197,7 @@
           <!--Excerpt-->
           <a href="" class="pink-text">
           <h6 class="font-bold pb-1">
-              <i class="fa fa-image"></i> Lifestyle</h6>
+              <i class="fa fa-image icone"></i> Lifestyle</h6>
           </a>
           <h3 class="mb-4 font-bold dark-grey-text">
           <strong>This is title of the news</strong>
@@ -315,7 +245,7 @@
           <!--Excerpt-->
           <a href="" class="indigo-text">
           <h6 class="font-bold pb-1">
-              <i class="fa fa-suitcase"></i> Travels</h6>
+              <i class="fa fa-suitcase icone"></i> Travels</h6>
           </a>
           <h3 class="mb-4 font-bold dark-grey-text">
           <strong>This is title of the news</strong>
@@ -340,7 +270,7 @@
   </main>
       {% endblock %}
        {% block footer %}
-       <footer class="page-footer stylish-color-dark">
+       <footer class="page-footer footerCouleur">
 
            <!--Footer Links-->
            <div class="container">
@@ -386,6 +316,8 @@
                    <!--/.rd column-->
 
                </div>
+               </div>
+               </footer>
       {% endblock %}
 
 
